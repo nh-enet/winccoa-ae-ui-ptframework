@@ -6,31 +6,28 @@
   @author n.holzersoellner
 */
 
-//--------------------------------------------------------------------------------
-// Libraries used (#uses)
 #uses "classes/ContextMenu/ContextMenuCustom"
 #uses "classes/GUI/GUINaviButton"
 
-
-//--------------------------------------------------------------------------------
-// Variables and Constants
-
-//--------------------------------------------------------------------------------
 /**
-*/
+ * @brief A button class for changing the language in the GUI.
+ */
 class GUINaviLanguageButton : GUINaviButton
 {
-//--------------------------------------------------------------------------------
-//@public members
-//--------------------------------------------------------------------------------
 
-  //------------------------------------------------------------------------------
-  /** The Default Constructor.
-  */
+  /**
+   * @brief The Default Constructor.
+   * @param textRef The reference to the text shape.
+   * @param iconRef The reference to the icon shape.
+   * @param frameSelector The reference to the frame selector shape.
+   */
   public GUINaviLanguageButton(const shape &textRef, const shape &iconRef, const shape &frameSelector) : GUINaviButton(textRef, iconRef, frameSelector)
   {
   }
 
+  /**
+   * @brief Handles the button click event to open a language selection menu.
+   */
   public void Clicked()
   {
     int answer;
@@ -39,37 +36,18 @@ class GUINaviLanguageButton : GUINaviButton
 
     dyn_string dsLangs;
 
-  	for(int i=0;i<getNoOfLangs();i++)
-  	{
-      languageMenu.AddPushButton(getCatStr("trans",getLocale(i)), i+1, 1, "");
-      dynAppend(dsLangs, getLocale(i));
-  	}
-  /*
-    languageMenu.AddPushButton("Deutsch", DE, 1, "");
-    languageMenu.AddPushButton("English", EN, 1, "");
-    languageMenu.AddPushButton("Español", ES, 1, "");
-    languageMenu.AddPushButton("Français", FR, 1, "");
-    languageMenu.AddPushButton("Türkçe", TR, 1, "");
-    languageMenu.AddPushButton("简体中文", CN, 1, "");*/
+    for (int i = 0; i < getNoOfLangs(); i++)
+    {
+      string locale = getLocale(i);
+      languageMenu.AddPushButton(getCatStr("trans", locale), i + 1, 1, "");
+      dsLangs.append(locale);
+    }
+
     answer = languageMenu.Open();
-  // DebugN("llllllllllllllllang changed", answer, dsLangs[answer]);
+
     if (answer > 0)
     {
-      changeLang(dsLangs[answer]);
+      changeLang(dsLangs.at(answer + 1));
     }
   }
-
-//--------------------------------------------------------------------------------
-//@protected members
-//--------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------
-//@private members
-//--------------------------------------------------------------------------------
-  private const int DE = 0;
-  private const int EN = 1;
-  private const int ES = 2;
-  private const int FR = 3;
-  private const int TR = 4;
-  private const int CN = 5;
 };

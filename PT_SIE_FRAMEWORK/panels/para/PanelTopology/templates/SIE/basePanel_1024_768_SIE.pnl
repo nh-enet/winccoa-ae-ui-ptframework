@@ -26,40 +26,33 @@
   <prop name="layoutSpacing">0</prop>
  </properties>
  <events>
-  <script name="ScopeLib" isEscaped="1"><![CDATA[#uses &quot;classes/GUI/GUIBasePanel&quot;
-#uses &quot;classes/GUI/faceplate&quot;
+  <script isEscaped="1" name="ScopeLib"><![CDATA[#uses &quot;classes/GUI/GUIBasePanel&quot;
+#uses &quot;classes/GUI/GUIFaceplate&quot;
 #event faceplateToOpen(string sFaceplate, bool bOpen=TRUE)
 
-
-shared_ptr&lt;GUIBasePanel&gt; basePanel = new GUIBasePanel(getShape(&quot;naviModule&quot;), getShape(&quot;mainModule&quot;), getShape(&quot;headerModule&quot;), getShape(&quot;infoModule&quot;), getShape(&quot;faceplateModule&quot;), $Screen);
-
-]]></script>
-  <script name="Initialize" isEscaped="1"><![CDATA[main()
+shared_ptr&lt;GUIBasePanel&gt; basePanel = new GUIBasePanel(getShape(&quot;naviModule&quot;), getShape(&quot;mainModule&quot;), getShape(&quot;headerModule&quot;), getShape(&quot;infoModule&quot;), getShape(&quot;faceplateModule&quot;), $Screen);]]></script>
+  <script isEscaped="1" name="Initialize"><![CDATA[main()
 {
-moduleMaximize(myModuleName());
+  moduleMaximize(myModuleName());
   pt_checkPanelTopologyCache();
   string strTitle;
   int iItem = 0;
 
-  if(!isDollarDefined(&quot;$Screen&quot;) || !isDollarDefined(&quot;$Number&quot;))
+  if (!isDollarDefined(&quot;$Screen&quot;) || !isDollarDefined(&quot;$Number&quot;))
   {
     pt_openBasePanel(&quot;3_3&quot;);
   }
   else
   {
     // Set the appropriate module names
-
-
-    ptms_LoadInitPanel($Number,$Screen, isDollarDefined(&quot;$Node&quot;) ? $Node : 0);
+    ptms_LoadInitPanel($Number, $Screen, isDollarDefined(&quot;$Node&quot;) ? $Node : 0);
   }
+
   basePanel.Initialize();
-
-
-}
-]]></script>
+}]]></script>
  </events>
  <shapes>
-  <shape Name="mainModule" shapeType="EMBEDDED_MODULE" layerId="0">
+  <shape Name="mainModule" layerId="0" shapeType="EMBEDDED_MODULE">
    <properties>
     <prop name="serialId">39</prop>
     <prop name="Type"></prop>
@@ -79,12 +72,12 @@ moduleMaximize(myModuleName());
      <prop name="en_GB.utf8"></prop>
     </prop>
     <prop name="sizePolicy">
-     <sizePolicy vertical="Expanding" horizontal="Expanding"/>
+     <sizePolicy horizontal="Expanding" vertical="Expanding"/>
     </prop>
     <prop name="layoutAlignment">AlignNone</prop>
     <prop name="snapMode">Point</prop>
     <prop name="Font">
-     <prop name="en_US.utf8">Siemens Sans,-1,13,5,50,0,0,0,0,0</prop>
+     <prop name="en_US.utf8">Siemens Sans,-1,13,5,400,0,0,0,0,0,0,0,0,0,0,1</prop>
      <prop name="de_AT.utf8">Siemens Sans,-1,13,5,50,0,0,0,0,0</prop>
      <prop name="es_ES.utf8">Siemens Sans,-1,13,5,50,0,0,0,0,0</prop>
      <prop name="fr_FR.utf8">Siemens Sans,-1,13,5,50,0,0,0,0,0</prop>
@@ -95,27 +88,27 @@ moduleMaximize(myModuleName());
     <prop name="Location">386.116242186865 236.3596004439512</prop>
     <prop name="Size">1325 711</prop>
     <extended>
-     <prop type="INT" name="newPanelAnimDuration">0</prop>
-     <prop type="INT" name="oldPanelAnimDuration">0</prop>
-     <prop type="BOOL" name="newPanelAnimateOpacity">True</prop>
-     <prop type="BOOL" name="oldPanelAnimateOpacity">True</prop>
-     <prop type="BOOL" name="newPanelAnimateSize">True</prop>
-     <prop type="BOOL" name="oldPanelAnimateSize">True</prop>
-     <prop type="CHAR_STRING" name="newPanelAnimType">None</prop>
-     <prop type="CHAR_STRING" name="oldPanelAnimType">None</prop>
-     <prop type="ENUM" name="verticalScrollBarPolicy">0</prop>
-     <prop type="ENUM" name="horizontalScrollBarPolicy">0</prop>
-     <prop type="ENUM" name="sizeAdjustPolicy">2</prop>
+     <prop name="newPanelAnimDuration" type="INT">0</prop>
+     <prop name="oldPanelAnimDuration" type="INT">0</prop>
+     <prop name="newPanelAnimateOpacity" type="BOOL">True</prop>
+     <prop name="oldPanelAnimateOpacity" type="BOOL">True</prop>
+     <prop name="newPanelAnimateSize" type="BOOL">True</prop>
+     <prop name="oldPanelAnimateSize" type="BOOL">True</prop>
+     <prop name="newPanelAnimType" type="CHAR_STRING">None</prop>
+     <prop name="oldPanelAnimType" type="CHAR_STRING">None</prop>
+     <prop name="verticalScrollBarPolicy" type="ENUM">0</prop>
+     <prop name="horizontalScrollBarPolicy" type="ENUM">0</prop>
+     <prop name="sizeAdjustPolicy" type="ENUM">2</prop>
     </extended>
    </properties>
   </shape>
-  <shape Name="headerModule" shapeType="EMBEDDED_MODULE" layerId="0">
+  <shape Name="headerModule" layerId="0" shapeType="EMBEDDED_MODULE">
    <properties>
     <prop name="serialId">46</prop>
     <prop name="Type"></prop>
     <prop name="RefPoint">198.9999999999418 11</prop>
     <prop name="Enable">True</prop>
-    <prop name="Visible">False</prop>
+    <prop name="Visible">True</prop>
     <prop name="ForeColor">_3DText</prop>
     <prop name="BackColor">STD_grey_light</prop>
     <prop name="TabOrder">7</prop>
@@ -131,12 +124,12 @@ moduleMaximize(myModuleName());
     <prop name="minimumSize">-1 48</prop>
     <prop name="maximumSize">-1 48</prop>
     <prop name="sizePolicy">
-     <sizePolicy vertical="Preferred" horizontal="Preferred"/>
+     <sizePolicy horizontal="Preferred" vertical="Preferred"/>
     </prop>
     <prop name="layoutAlignment">AlignNone</prop>
     <prop name="snapMode">Point</prop>
     <prop name="Font">
-     <prop name="en_US.utf8">Tahoma,-1,21,5,50,0,0,0,0,0,Regular</prop>
+     <prop name="en_US.utf8">Tahoma,-1,21,5,400,0,0,0,0,0,0,0,0,0,0,1,Regular</prop>
      <prop name="de_AT.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
      <prop name="es_ES.utf8">Tahoma,-1,21,5,50,0,0,0,0,0,Regular</prop>
      <prop name="fr_FR.utf8">Tahoma,-1,21,5,50,0,0,0,0,0,Regular</prop>
@@ -147,12 +140,12 @@ moduleMaximize(myModuleName());
     <prop name="Location">0 0</prop>
     <prop name="Size">1920 48</prop>
     <extended>
-     <prop type="ENUM" name="horizontalScrollBarPolicy">1</prop>
-     <prop type="ENUM" name="verticalScrollBarPolicy">1</prop>
+     <prop name="horizontalScrollBarPolicy" type="ENUM">1</prop>
+     <prop name="verticalScrollBarPolicy" type="ENUM">1</prop>
     </extended>
    </properties>
   </shape>
-  <shape Name="infoModule" shapeType="EMBEDDED_MODULE" layerId="0">
+  <shape Name="infoModule" layerId="0" shapeType="EMBEDDED_MODULE">
    <properties>
     <prop name="serialId">50</prop>
     <prop name="Type"></prop>
@@ -174,12 +167,12 @@ moduleMaximize(myModuleName());
     <prop name="minimumSize">500 81</prop>
     <prop name="maximumSize">-1 81</prop>
     <prop name="sizePolicy">
-     <sizePolicy vertical="Fixed" horizontal="Expanding"/>
+     <sizePolicy horizontal="Expanding" vertical="Fixed"/>
     </prop>
     <prop name="layoutAlignment">AlignNone</prop>
     <prop name="snapMode">Point</prop>
     <prop name="Font">
-     <prop name="en_US.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
+     <prop name="en_US.utf8">Tahoma,-1,13,5,400,0,0,0,0,0,0,0,0,0,0,1</prop>
      <prop name="de_AT.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
      <prop name="es_ES.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
      <prop name="fr_FR.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
@@ -190,12 +183,12 @@ moduleMaximize(myModuleName());
     <prop name="Location">295 48</prop>
     <prop name="Size">1481 80</prop>
     <extended>
-     <prop type="ENUM" name="horizontalScrollBarPolicy">1</prop>
-     <prop type="ENUM" name="verticalScrollBarPolicy">1</prop>
+     <prop name="horizontalScrollBarPolicy" type="ENUM">1</prop>
+     <prop name="verticalScrollBarPolicy" type="ENUM">1</prop>
     </extended>
    </properties>
    <events>
-    <script name="Initialize" isEscaped="1"><![CDATA[main()
+    <script isEscaped="1" name="Initialize"><![CDATA[main()
 {
   string moduleDp = basePanel.GetInfoPanelName();
 
@@ -218,7 +211,7 @@ work(string dp, bool vis)
 ]]></script>
    </events>
   </shape>
-  <shape Name="SPACER1" shapeType="SPACER" layerId="0">
+  <shape Name="SPACER1" layerId="0" shapeType="SPACER">
    <properties>
     <prop name="serialId">51</prop>
     <prop name="Type"></prop>
@@ -240,7 +233,7 @@ work(string dp, bool vis)
     <prop name="minimumSize">48 -1</prop>
     <prop name="maximumSize">48 -1</prop>
     <prop name="sizePolicy">
-     <sizePolicy vertical="Ignored" horizontal="Expanding"/>
+     <sizePolicy horizontal="Expanding" vertical="Ignored"/>
     </prop>
     <prop name="layoutAlignment">AlignNone</prop>
     <prop name="snapMode">Point</prop>
@@ -249,11 +242,11 @@ work(string dp, bool vis)
     <prop name="Orientation">horizontal</prop>
    </properties>
   </shape>
-  <shape Name="naviModule" shapeType="EMBEDDED_MODULE" layerId="0">
+  <shape Name="naviModule" layerId="0" shapeType="EMBEDDED_MODULE">
    <properties>
     <prop name="serialId">49</prop>
     <prop name="Type"></prop>
-    <prop name="RefPoint">0 47</prop>
+    <prop name="RefPoint">0 48</prop>
     <prop name="Enable">True</prop>
     <prop name="Visible">True</prop>
     <prop name="ForeColor">_3DText</prop>
@@ -269,12 +262,12 @@ work(string dp, bool vis)
      <prop name="en_GB.utf8"></prop>
     </prop>
     <prop name="sizePolicy">
-     <sizePolicy vertical="Preferred" horizontal="Preferred"/>
+     <sizePolicy horizontal="Preferred" vertical="Preferred"/>
     </prop>
     <prop name="layoutAlignment">AlignNone</prop>
     <prop name="snapMode">Point</prop>
     <prop name="Font">
-     <prop name="en_US.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
+     <prop name="en_US.utf8">Tahoma,-1,13,5,400,0,0,0,0,0,0,0,0,0,0,1</prop>
      <prop name="de_AT.utf8">Siemens Sans,-1,13,5,50,0,0,0,0,0,Roman</prop>
      <prop name="es_ES.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
      <prop name="fr_FR.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
@@ -282,20 +275,20 @@ work(string dp, bool vis)
      <prop name="zh_CN.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
      <prop name="en_GB.utf8">Tahoma,-1,13,5,50,0,0,0,0,0</prop>
     </prop>
-    <prop name="Location">0 47</prop>
+    <prop name="Location">0 48</prop>
     <prop name="Size">300 1032</prop>
     <extended>
-     <prop type="ENUM" name="horizontalScrollBarPolicy">1</prop>
-     <prop type="ENUM" name="verticalScrollBarPolicy">1</prop>
-     <prop type="INT" name="newPanelAnimDuration">0</prop>
-     <prop type="ENUM" name="sizeAdjustPolicy">0</prop>
-     <prop type="BOOL" name="newPanelAnimateOpacity">True</prop>
-     <prop type="BOOL" name="newPanelAnimateSize">True</prop>
-     <prop type="ENUM" name="newPanelAnimType">0</prop>
+     <prop name="horizontalScrollBarPolicy" type="ENUM">1</prop>
+     <prop name="verticalScrollBarPolicy" type="ENUM">1</prop>
+     <prop name="newPanelAnimDuration" type="INT">0</prop>
+     <prop name="sizeAdjustPolicy" type="ENUM">0</prop>
+     <prop name="newPanelAnimateOpacity" type="BOOL">True</prop>
+     <prop name="newPanelAnimateSize" type="BOOL">True</prop>
+     <prop name="newPanelAnimType" type="ENUM">0</prop>
     </extended>
    </properties>
   </shape>
-  <shape Name="faceplateModule" shapeType="EMBEDDED_MODULE" layerId="0">
+  <shape Name="faceplateModule" layerId="0" shapeType="EMBEDDED_MODULE">
    <properties>
     <prop name="serialId">53</prop>
     <prop name="Type"></prop>
@@ -316,12 +309,12 @@ work(string dp, bool vis)
     <prop name="minimumSize">450 -1</prop>
     <prop name="maximumSize">450 -1</prop>
     <prop name="sizePolicy">
-     <sizePolicy vertical="Preferred" horizontal="Fixed"/>
+     <sizePolicy horizontal="Fixed" vertical="Preferred"/>
     </prop>
     <prop name="layoutAlignment">AlignNone</prop>
     <prop name="snapMode">Point</prop>
     <prop name="Font">
-     <prop name="en_US.utf8">Siemens Sans,-1,13,5,50,0,0,0,0,0,Roman</prop>
+     <prop name="en_US.utf8">Siemens Sans,-1,13,5,400,0,0,0,0,0,0,0,0,0,0,1,Roman</prop>
      <prop name="de_AT.utf8">Siemens Sans,-1,13,5,50,0,0,0,0,0,Roman</prop>
      <prop name="es_ES.utf8">Siemens Sans,-1,13,5,50,0,0,0,0,0,Roman</prop>
      <prop name="fr_FR.utf8">Siemens Sans,-1,13,5,50,0,0,0,0,0,Roman</prop>
@@ -331,28 +324,30 @@ work(string dp, bool vis)
     <prop name="Location">1860 -130</prop>
     <prop name="Size">76 881</prop>
     <extended>
-     <prop type="INT" name="newPanelAnimDuration">0</prop>
-     <prop type="INT" name="oldPanelAnimDuration">0</prop>
-     <prop type="BOOL" name="newPanelAnimateOpacity">True</prop>
-     <prop type="BOOL" name="oldPanelAnimateOpacity">True</prop>
-     <prop type="BOOL" name="newPanelAnimateSize">True</prop>
-     <prop type="BOOL" name="oldPanelAnimateSize">True</prop>
-     <prop type="CHAR_STRING" name="newPanelAnimType">TopLeft</prop>
-     <prop type="CHAR_STRING" name="oldPanelAnimType">BottomRight</prop>
-     <prop type="ENUM" name="frameShape">0</prop>
-     <prop type="ENUM" name="frameShadow">16</prop>
-     <prop type="INT" name="lineWidth">0</prop>
-     <prop type="ENUM" name="verticalScrollBarPolicy">0</prop>
-     <prop type="ENUM" name="horizontalScrollBarPolicy">0</prop>
+     <prop name="newPanelAnimDuration" type="INT">0</prop>
+     <prop name="oldPanelAnimDuration" type="INT">0</prop>
+     <prop name="newPanelAnimateOpacity" type="BOOL">True</prop>
+     <prop name="oldPanelAnimateOpacity" type="BOOL">True</prop>
+     <prop name="newPanelAnimateSize" type="BOOL">True</prop>
+     <prop name="oldPanelAnimateSize" type="BOOL">True</prop>
+     <prop name="newPanelAnimType" type="CHAR_STRING">TopLeft</prop>
+     <prop name="oldPanelAnimType" type="CHAR_STRING">BottomRight</prop>
+     <prop name="frameShape" type="ENUM">0</prop>
+     <prop name="frameShadow" type="ENUM">16</prop>
+     <prop name="lineWidth" type="INT">0</prop>
+     <prop name="verticalScrollBarPolicy" type="ENUM">0</prop>
+     <prop name="horizontalScrollBarPolicy" type="ENUM">0</prop>
     </extended>
    </properties>
    <events>
-    <script name="Initialize" isEscaped="1"><![CDATA[dyn_string dsFaceplates;
+    <script isEscaped="1" name="Initialize"><![CDATA[#uses &quot;classes/GUI/GUIFaceplate&quot;
+
+dyn_string dsFaceplates;
 
 main()
 {
   pt_checkPanelTopologyCache();
-  Faceplate::addFunctionPtr(self.faceplateToOpen);
+  GUIFaceplate::AddFunctionPtr(self.faceplateToOpen);
   RootPanelOnModule(&quot;/IX/faceplates/faceplateSideModuleBasePanel&quot;, &quot;menu&quot;, faceplateModule.ModuleName(), makeDynString(&quot;$moduleName:&quot; + myModuleName(), &quot;$modName:&quot; + faceplateModule.ModuleName(), &quot;$beamed:&quot; + false));
 //   string myUiFaceplateDp = &quot;_Ui_&quot; + myUiNumber() + &quot;_faceplateMonitor&quot;;
 //
@@ -379,17 +374,19 @@ main()
 // }
 visibleCB(string sFaceplate, bool bOpen)
 {
-  if (sFaceplate != &quot;&quot; &amp;&amp; strpos(sFaceplate, &quot;§&quot;)&gt;0)
+  if (sFaceplate != &quot;&quot; &amp;&amp; strpos(sFaceplate, &quot;§&quot;) &gt; 0)
     sFaceplate = substr(sFaceplate, 0, strpos(sFaceplate, &quot;§&quot;));
+
   int iPos = dynContains(dsFaceplates, sFaceplate);
+
   if (sFaceplate == &quot;&quot; &amp;&amp; !bOpen) //clear all
   {
     dynClear(dsFaceplates);
     this.visible(false);
   }
-  else if(bOpen)
+  else if (bOpen)
   {
-    if (iPos&lt;1)
+    if (iPos &lt; 1)
     {
       dynAppend(dsFaceplates, sFaceplate);
       this.visible(true);
@@ -397,49 +394,54 @@ visibleCB(string sFaceplate, bool bOpen)
   }
   else //close
   {
-    if (iPos&gt;0)
+    if (iPos &gt; 0)
     {
       dynRemove(dsFaceplates, iPos);
-      this.visible(dynlen(dsFaceplates)&gt;0);
+      this.visible(dynlen(dsFaceplates) &gt; 0);
     }
   }
- // DebugN(&quot;faceplate visible?&quot;,dsFaceplates, sFaceplate, bOpen);
+
+// DebugN(&quot;faceplate visible?&quot;,dsFaceplates, sFaceplate, bOpen);
 }
 ]]></script>
    </events>
   </shape>
  </shapes>
  <groups>
-  <layout parentSerial="1" Name="LAYOUT_GROUP1" serial="0">
+  <layout Name="LAYOUT_GROUP1" parentSerial="1" serial="0">
    <properties>
     <prop idx="0" name="shapeSerial">39</prop>
     <prop idx="1" name="shapeSerial">53</prop>
     <prop name="isContainerShape">False</prop>
     <prop name="layoutType">HBox</prop>
+    <prop name="layoutSpacing">0</prop>
    </properties>
   </layout>
-  <layout parentSerial="2" Name="LAYOUT_GROUP3" serial="1">
+  <layout Name="LAYOUT_GROUP3" parentSerial="2" serial="1">
    <properties>
     <prop idx="0" name="shapeSerial">50</prop>
     <prop idx="1" name="groupSerial">0</prop>
     <prop name="isContainerShape">False</prop>
     <prop name="layoutType">VBox</prop>
+    <prop name="layoutSpacing">0</prop>
    </properties>
   </layout>
-  <layout parentSerial="3" Name="LAYOUT_GROUP4" serial="2">
+  <layout Name="LAYOUT_GROUP4" parentSerial="3" serial="2">
    <properties>
     <prop idx="0" name="shapeSerial">51</prop>
     <prop idx="1" name="groupSerial">1</prop>
     <prop name="isContainerShape">False</prop>
     <prop name="layoutType">HBox</prop>
+    <prop name="layoutSpacing">0</prop>
    </properties>
   </layout>
-  <layout parentSerial="-1" Name="LAYOUT_GROUP5" serial="3">
+  <layout Name="LAYOUT_GROUP5" parentSerial="-1" serial="3">
    <properties>
     <prop idx="0" name="shapeSerial">46</prop>
     <prop idx="1" name="groupSerial">2</prop>
     <prop name="isContainerShape">False</prop>
     <prop name="layoutType">VBox</prop>
+    <prop name="layoutSpacing">0</prop>
    </properties>
   </layout>
  </groups>

@@ -6,58 +6,46 @@
   @author n.holzersoellner
 */
 
-//--------------------------------------------------------------------------------
-// Libraries used (#uses)
 #uses "classes/GUI/GUINaviButton"
 
-
-//--------------------------------------------------------------------------------
-// Variables and Constants
-
-//--------------------------------------------------------------------------------
 /**
-*/
+ * @brief Represents a button for exiting the current module in the GUI.
+ */
 class GUINaviExitButton : GUINaviButton
 {
-//--------------------------------------------------------------------------------
-//@public members
-//--------------------------------------------------------------------------------
 
-  //------------------------------------------------------------------------------
-  /** The Default Constructor.
-  */
+  /**
+   * @brief The Default Constructor.
+   * @param textRef The reference to the text shape.
+   * @param iconRef The reference to the icon shape.
+   * @param frameSelector The reference to the frame selector shape.
+   */
   public GUINaviExitButton(const shape &textRef, const shape &iconRef, const shape &frameSelector) : GUINaviButton(textRef, iconRef, frameSelector)
   {
   }
 
+  /**
+   * @brief Handles the button click event to close the current module.
+   * It checks the current module name and closes the corresponding module.
+   */
   public void Clicked()
   {
-    dyn_string dsModSpilt = strsplit(myModuleName(), "_");
-    int iModNum = dsModSpilt[dynlen(dsModSpilt)];
+    dyn_string moduleSplit = strsplit(myModuleName(), "_");
+    int moduleNumber = moduleSplit.at(dynlen(moduleSplit) - 1);
 
-    dyn_string dsModuleNames = getVisionNames();
-DebugN("dsModuleNames", dsModuleNames, myModuleName(), iModNum, "WinCC_OA_"+iModNum);
-    if (dynContains(dsModuleNames, "Tunnel_Model_" + iModNum))
+    dyn_string moduleNames = getVisionNames();
+
+    if (dynContains(moduleNames, "Tunnel_Model_" + moduleNumber))
     {
-      ModuleOff("Tunnel_Model_" + iModNum);
+      ModuleOff("Tunnel_Model_" + moduleNumber);
     }
-    else if (dynContains(dsModuleNames, "Vision_" + iModNum))
+    else if (dynContains(moduleNames, "Vision_" + moduleNumber))
     {
-      ModuleOff("Vision_" + iModNum);
+      ModuleOff("Vision_" + moduleNumber);
     }
-    else if (dynContains(dsModuleNames, "WinCC_OA_" + iModNum))
+    else if (dynContains(moduleNames, "WinCC_OA_" + moduleNumber))
     {
-      DebugN("close main module", "WinCC_OA_" + iModNum);
-      ModuleOff("WinCC_OA_" + iModNum);
+      ModuleOff("WinCC_OA_" + moduleNumber);
     }
   }
-
-//--------------------------------------------------------------------------------
-//@protected members
-//--------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------
-//@private members
-//--------------------------------------------------------------------------------
-
 };

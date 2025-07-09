@@ -6,32 +6,30 @@
   @author n.holzersoellner
 */
 
-//--------------------------------------------------------------------------------
-// Libraries used (#uses)
 #uses "classes/ContextMenu/ContextMenuCustom"
 #uses "classes/GUI/GUINaviButton"
 
-
-//--------------------------------------------------------------------------------
-// Variables and Constants
-
-//--------------------------------------------------------------------------------
 /**
-*/
-class GUINaviUserButton : GUINaviButton {
-//--------------------------------------------------------------------------------
-//@public members
-//--------------------------------------------------------------------------------
+ * @brief A button for user management in the navigation bar.
+ */
+class GUINaviUserButton : GUINaviButton
+{
 
-  //------------------------------------------------------------------------------
-  /** The Default Constructor.
-  */
-  public GUINaviUserButton(const shape &textRef, const shape &iconRef, const shape &frameSelector) : GUINaviButton(textRef, iconRef, frameSelector) {
+  /**
+   * @brief The Default Constructor.
+   */
+  public GUINaviUserButton(const shape &textRef, const shape &iconRef, const shape &frameSelector) : GUINaviButton(textRef, iconRef, frameSelector)
+  {
     string myUiDp = myUiDpName();
     dpConnect("ChangeUserCB", myUiDp + ".UserName");
   }
 
-  public void Clicked() {
+  /**
+   * @brief Handles the button click event.
+   * Opens a context menu with user-related options.
+   */
+  public void Clicked()
+  {
     int answer;
     string dp, user;
     time tStime;
@@ -42,26 +40,30 @@ class GUINaviUserButton : GUINaviButton {
     string changePasswordAllowed = (getUserName() != "") ? "0" : "1";
 
 
-    if (getKerberosSecurity() > 0) {
+    if (getKerberosSecurity() > 0)
+    {
       logoutAllowed = "0";
       loginAsAllowed = "0";
       changePasswordAllowed = "0";
     }
 
-    if (isUltralight() && (getUserId() != DEFAULT_USERID)) {
+    if (isUltralight() && (getUserId() != DEFAULT_USERID))
+    {
       loginAsAllowed = "0";
     }
 
     OaAuthFactory factory;
     shared_ptr<OaAuthMethod> auth = factory.getAuth();
 
-    if (!auth.passwordResetEnabled()) {
+    if (!auth.passwordResetEnabled())
+    {
       dyn_int ids;
       dyn_string osIds;
       dpGet("_Users.UserId", ids, "_Users.OSIDs", osIds);
       int pos = dynContains(ids, getUserId());
 
-      if ((pos > 0) && (dynlen(osIds) >= pos) && (osIds[pos] != "")) {
+      if ((pos > 0) && (dynlen(osIds) >= pos) && (osIds[pos] != ""))
+      {
         changePasswordAllowed = "0";
       }
     }
@@ -87,7 +89,8 @@ class GUINaviUserButton : GUINaviButton {
     dpGet(dp + "UserName:_online.._stime", tStime,
           dp + "UserName:_online.._value", user);
 
-    switch (answer) {
+    switch (answer)
+    {
       case 1: STD_LoginAs();
         return;
 
@@ -119,25 +122,24 @@ class GUINaviUserButton : GUINaviButton {
     }
   }
 
-//--------------------------------------------------------------------------------
-//@protected members
-//--------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------
-//@private members
-//--------------------------------------------------------------------------------
-
-  private void SetUserIcon(const string &name) {
+  /**
+   * @brief Sets the user icon and updates the button text.
+   * @param name The name of the user.
+   */
+  private void SetUserIcon(const string &name)
+  {
     string userName = name;
     dyn_string userNameParts = stringToDynString(userName, " ");
     char firstInitial = userNameParts.first().left(1);
     char lastInitial;
 
-    if (userNameParts.count() > 1) {
+    if (userNameParts.count() > 1)
+    {
       lastInitial = userNameParts.last().left(1);
     }
 
     string userInitials = firstInitial + lastInitial;
+
     if (userInitials.isEmpty())
       userInitials = "~";
 
@@ -145,10 +147,20 @@ class GUINaviUserButton : GUINaviButton {
     textRef.SetText(getCatStr("SIE", "buttonNavi_user") + ": " + getUserName());
   }
 
-  private void ChangeUserCB(const string &dp, const string &name) {
-    if (!name.isEmpty()) {
+  /**
+   * @brief Callback function for user change events.
+   * Updates the user icon based on the new user name.
+   * @param dp The data point name (not used here).
+   * @param name The new user name.
+   */
+  private void ChangeUserCB(const string &dp, const string &name)
+  {
+    if (!name.isEmpty())
+    {
       SetUserIcon(name);
-    } else {
+    }
+    else
+    {
       SetUserIcon(" ");
     }
   }

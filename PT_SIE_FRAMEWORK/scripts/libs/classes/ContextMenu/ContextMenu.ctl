@@ -1,29 +1,23 @@
 // $License: NOLICENSE
 //--------------------------------------------------------------------------------
 /**
-  @file $relPath
-  @brief ContextMenu
-  @details Is used to easily configure and open a context menu
-  @since Version 3.19
-  @author Mario Wögrath
-  @copyright $copyright
-*/
+ @file $relPath
+ @brief ContextMenu
+ @details Is used to easily configure and open a context menu
+ @since Version 3.19
+ @author Mario Wögrath
+ @copyright $copyright
+ */
 
-//--------------------------------------------------------------------------------
-// Libraries used (#uses)
 #uses "classes/DialogFramework"
 
-//--------------------------------------------------------------------------------
-// Variables and Constants
-
-//--------------------------------------------------------------------------------
 /**
-  @brief Handles the ContextMenu
-*/
-class ContextMenu {
-  //--------------------------------------------------------------------------------
-  //@public members
-  //--------------------------------------------------------------------------------
+ @brief Handles the ContextMenu
+ */
+class ContextMenu
+{
+  private dyn_string _buttons; //!< List of buttons in the context menu
+  private mapping _branches; //!< Branches of the context menu, where each branch has its own list of buttons
 
   /**
     @brief Adds a PushButton to the context menu
@@ -36,7 +30,8 @@ class ContextMenu {
       1     | Enabled
     @param branchName ... Branch name to add the button, empty means no branch
   */
-  public void AddPushButton(const string &text, const int &answer, const int active = 1, const string branchName = "") {
+  public void AddPushButton(const string &text, const int &answer, const int active = 1, const string branchName = "")
+  {
     string button = "PUSH_BUTTON," + text + "," + (string) answer + "," + (string) active;
     AddButton(branchName, button);
   }
@@ -45,7 +40,8 @@ class ContextMenu {
     @brief Adds a Seperator to the context menu
     @param branchName ... Branch name to add the button, empty means no branch
   */
-  public void AddSeperator(const string branchName = "") {
+  public void AddSeperator(const string branchName = "")
+  {
     string button = "SEPARATOR";
     AddButton(branchName, button);
   }
@@ -66,7 +62,8 @@ class ContextMenu {
       1     | Enabled
     @param branchName ... Branch name to add the button, empty means no branch
   */
-  public void AddCheckButton(const string &text, const int &answer, const int checked = 0, const int active = 1, const string branchName = "") {
+  public void AddCheckButton(const string &text, const int &answer, const int checked = 0, const int active = 1, const string branchName = "")
+  {
     string button = "CHECK_BUTTON," + text + "," + (string)answer + "," + (string)active + "," + (string)checked;
     AddButton(branchName, button);
   }
@@ -81,7 +78,8 @@ class ContextMenu {
       1     | Enabled
     @param branchName ... Branch name to add the button, empty means no branch
   */
-  public void AddCascadeButton(const string &text, const int active = 1, const string branchName = "") {
+  public void AddCascadeButton(const string &text, const int active = 1, const string branchName = "")
+  {
     string button = "CASCADE_BUTTON," + text + "," + (string)active;
     AddButton(branchName, button);
   }
@@ -90,13 +88,24 @@ class ContextMenu {
     @brief Opens the generic context menu on click
     @return The answer value of the clicked choice, if nothing was clicked returns -1
   */
-  public int Open() {
+  public int Open()
+  {
     int answer;
     popupMenu(GetButtonList(), answer);
     return answer;
   }
 
-  public int OpenXY(int x, int y, string font, string foreCol, string backCol) {
+  /**
+    @brief Opens the context menu at a specific position
+    @param x ... X position of the context menu
+    @param y ... Y position of the context menu
+    @param font ... Font to use for the context menu
+    @param foreCol ... Foreground color of the context menu
+    @param backCol ... Background color of the context menu
+    @return The answer value of the clicked choice, if nothing was clicked returns -1
+  */
+  public int OpenXY(int x, int y, string font, string foreCol, string backCol)
+  {
     int answer;
     popupMenuXY(GetButtonList(), x, y, answer, font, foreCol, backCol);
     return answer;
@@ -105,7 +114,8 @@ class ContextMenu {
   /**
     @brief Clears all buttons of the context menu
   */
-  public void Clear() {
+  public void Clear()
+  {
     _buttons.clear();
     _branches.clear();
   }
@@ -114,11 +124,13 @@ class ContextMenu {
     @brief Returns list of all buttons including branches
     @return list of buttons
   */
-  public dyn_string GetButtonList() {
+  public dyn_string GetButtonList()
+  {
     dyn_string buttonList = _buttons;
     int branchCount = _branches.count();
 
-    for (int i = 0; i < branchCount; i++) {
+    for (int i = 0; i < branchCount; i++)
+    {
       dynAppend(buttonList, _branches.keyAt(i));
       dynAppend(buttonList, _branches.valueAt(i));
     }
@@ -126,27 +138,29 @@ class ContextMenu {
     return buttonList;
   }
 
-  public mapping GetBranchlist(){
+  /**
+    @brief Returns list of all buttons in a branch
+    @param branchName ... Branch name to get the button list from
+    @return list of buttons in the branch
+  */
+  public mapping GetBranchlist()
+  {
     return _branches;
   }
-
-
-  //------------------------------------------------------------------------------
-  //@private members
-  //------------------------------------------------------------------------------
-  //------------------------------------------------------------------------------
-  private dyn_string _buttons;
-  private mapping _branches;
 
   /**
     @brief Adds button either to a branch or to button list
     @param branchName ... branch name, can be empty
     @param button ... Button
   */
-  private void AddButton(const string &branchName, const string &button) {
-    if (branchName.isEmpty()) {
+  private void AddButton(const string &branchName, const string &button)
+  {
+    if (branchName.isEmpty())
+    {
       _buttons.append(button);
-    } else {
+    }
+    else
+    {
       AddBranchButton(branchName, button);
     }
   }
@@ -156,7 +170,8 @@ class ContextMenu {
     @param branchName ... branch name
     @param button ... Button
   */
-  private void AddBranchButton(const string &branchName, const string &button) {
+  private void AddBranchButton(const string &branchName, const string &button)
+  {
     dyn_string branchList = _branches.value(branchName);
     branchList.append(button);
     _branches.insert(branchName, branchList);
