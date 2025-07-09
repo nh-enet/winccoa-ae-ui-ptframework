@@ -29,20 +29,21 @@ class GUIFaceplate
   */
   public static int GetMyScreenNum(const string module = myModuleName())
   {
+    string tempModule = module;
     if (!patternMatch("WinCC_OA_*", module))
     {
       shape rootPanelShape = getShape(module + "." + rootPanel(module) + ":");
       shape modShape = rootPanelShape.parentShape();
       shape modPanel = modShape.panel();
-      module = modPanel.moduleName();
+      tempModule = modPanel.moduleName();
 
-      if (!patternMatch("mainModule_*", module) && !patternMatch("WinCC_OA_*", module))
+      if (!patternMatch("mainModule_*", tempModule) && !patternMatch("WinCC_OA_*", tempModule))
       {
-        return GetMyScreenNum(module);
+        return GetMyScreenNum(tempModule);
       }
     }
 
-    dyn_string dsSplit = strsplit(module, "_");
+    dyn_string dsSplit = strsplit(tempModule, "_");
     return dsSplit.last();
   }
 
@@ -58,7 +59,7 @@ class GUIFaceplate
       monitorNr = GetMyScreenNum();
     }
 
-    _faceplateToOpen.insertAt(monitorNumber, faceplateToOpen);
+    _faceplateToOpen.insertAt(monitorNr - 1, faceplateToOpen);
   }
 
   /**
@@ -68,6 +69,9 @@ class GUIFaceplate
   */
   public static TriggerOpenFaceplate(const string &panel, const bool open = TRUE)
   {
-    triggerEvent(_faceplateToOpen.at(GetMyScreenNum()), panel, open);
+    if (!panel.isEmpty())
+    {
+      triggerEvent(_faceplateToOpen.at(GetMyScreenNum()-1), panel, open);
+    }
   }
 };
