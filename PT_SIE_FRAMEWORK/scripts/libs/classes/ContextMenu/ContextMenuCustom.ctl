@@ -6,38 +6,36 @@
   @author m.woegrath
 */
 
-//--------------------------------------------------------------------------------
-// Libraries used (#uses)
+#uses "classes/GUI/GUIMisc"
 #uses "classes/ContextMenu/ContextMenu"
 
-
-//--------------------------------------------------------------------------------
-// Variables and Constants
-
-//--------------------------------------------------------------------------------
 /**
-  Handles a custom Context menu
-  @details Opens the context menu buttons in an wincc oa panel
-*/
+ Handles a custom Context menu
+ @details Opens the context menu buttons in an wincc oa panel
+ */
 class ContextMenuCustom : ContextMenu
 {
-//--------------------------------------------------------------------------------
-//@public members
-//--------------------------------------------------------------------------------
+  private static const string SeperatorRef = "IX/objects_parts/ContextMenu/popup_seperator.xml"; //!< Panel reference of a Seperator in the panel context menu
+  private static const string PushButtonRef = "IX/objects_parts/ContextMenu/popup_pushbutton.xml"; //!< Panel reference of a PushButton in the panel context menu
+  private static const string CheckButtonRef = "IX/objects_parts/ContextMenu/popup_checkbutton.xml"; //!< Panel refrence of a CheckButton in the panel context menu
 
-  //------------------------------------------------------------------------------
-  /** The Default Constructor.
+  private const string PopupRef = "IX/objects_parts/ContextMenu/popup.xml"; //!< Panel reference of the context menu popup panel
+
+  private string _ref; //!< Reference to the parent object, where the context menu is opened in relation to
+  private shared_ptr<GUIMisc> _guiMisc;
+
+  /**
+   @brief The Default Constructor.
   */
   public ContextMenuCustom()
   {
+    _guiMisc = new GUIMisc();
   }
 
   /**
-    @brief Opens a panel as context menu in relation to a parent reference
-      Opens the panel "objects_parts/ContextMenu/popup.xml" in relation to a parent reference.
-      This Panel can be modified and saved in the project.
-    @warning CascadeButtons are not implemented yet
-    @param ref ... Parent reference
+    @brief Opens a panel as context menu in relation to a parent reference.
+    @warning CascadeButtons are not implemented yet.
+    @param ref ... Parent reference.
     @return The answer value of the clicked choice in the panel, if nothing was clicked returns -1
   */
   public int Open()
@@ -58,15 +56,18 @@ class ContextMenuCustom : ContextMenu
 
     dyn_int dynsize;
     getValue(_ref, "position", x, y,
-             "size", w,h);
-
-//     w = dynsize.at(0);
-//     h = dynsize.at(1);
+             "size", w, h);
 
     dyn_int size = getPanelSize(PopupRef);
 
     panelPosition(myModuleName(), "", xAbsolute, yAbsolute);
-    getScreenSize(wScreen, hScreen);
+
+    mapping allScreenValues = _guiMisc.GetScreenSizeForAllScreens();
+    int mX, mY;
+    getCursorPosition(mX, mY, TRUE);
+    mapping screenValues = allScreenValues.value(getScreenNumber(mX, mY) + 1);
+    wScreen = screenValues.value("W");
+    hScreen = screenValues.value("H");
 
     int yPopup = 0;
     dyn_string buttonList = GetButtonList();
@@ -94,14 +95,10 @@ class ContextMenuCustom : ContextMenu
 
     if ((yAbsolute + y + yPopup) > hScreen)
     {
-      y -= yPopup;
-    }
-    else
-    {
-      y += 42;
+      y -= yPopup - 42;
     }
 
-    x += w/* - size.at(0)*/;
+    x += w;
 
     dyn_anytype panel = makeDynAnytype(myModuleName(), getPath(PANELS_REL_PATH, PopupRef), myPanelName(), "popup",
                                        x, y,
@@ -156,18 +153,4 @@ class ContextMenuCustom : ContextMenu
 
     setPanelSize(myModuleName(), myPanelName(), FALSE, 200, posY);
   }
-
-//--------------------------------------------------------------------------------
-//@protected members
-//--------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------
-//@private members
-//--------------------------------------------------------------------------------
-
-  private const string PopupRef = "IX/objects_parts/ContextMenu/popup.xml";
-  private string _ref;
-  private static const string SeperatorRef = "IX/objects_parts/ContextMenu/popup_seperator.xml"; //!< Panel reference of a Seperator in the panel context menu
-  private static const string PushButtonRef = "IX/objects_parts/ContextMenu/popup_pushbutton.xml"; //!< Panel reference of a PushButton in the panel context menu
-  private static const string CheckButtonRef = "IX/objects_parts/ContextMenu/popup_checkbutton.xml"; //!< Panel refrence of a CheckButton in the panel context menu
 };
