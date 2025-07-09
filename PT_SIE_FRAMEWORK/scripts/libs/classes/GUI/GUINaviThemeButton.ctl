@@ -6,30 +6,23 @@
   @author n.holzersoellner
 */
 
-//--------------------------------------------------------------------------------
-// Libraries used (#uses)
 #uses "classes/GUI/GUINaviButton"
 
-
-//--------------------------------------------------------------------------------
-// Variables and Constants
-
-//--------------------------------------------------------------------------------
-/**
-*/
 class GUINaviThemeButton : GUINaviButton
 {
-//--------------------------------------------------------------------------------
-//@public members
-//--------------------------------------------------------------------------------
+  private const string darkTheme = "Siemens_Dark"; //!< The dark theme name.
+  private const string lightTheme = "Siemens_Light"; //!< The light theme name.
 
-  //------------------------------------------------------------------------------
-  /** The Default Constructor.
-  */
+  /**
+   * The Default Constructor.
+   */
   public GUINaviThemeButton(const shape &textRef, const shape &iconRef, const shape &frameSelector) : GUINaviButton(textRef, iconRef, frameSelector)
   {
   }
 
+  /**
+   * @brief Handles the button click event to toggle between dark and light themes.
+   */
   public void Clicked()
   {
     string activeTheme = colorGetActiveScheme();
@@ -38,15 +31,4 @@ class GUINaviThemeButton : GUINaviButton
     setApplicationProperty("styleSheet", getApplicationProperty("styleSheet"));
     triggerGlobalEvent("ColorSchemeChanged");
   }
-
-//--------------------------------------------------------------------------------
-//@protected members
-//--------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------
-//@private members
-//--------------------------------------------------------------------------------
-
-  private const string darkTheme = "Siemens_Dark";
-  private const string lightTheme = "Siemens_Light";
 };
