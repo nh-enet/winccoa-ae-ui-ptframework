@@ -1,13 +1,15 @@
 
 *.log
 
-
+*.sqlite-*
 *.bak
 *.tmp
 *.rptdesign
 *.wsdl
 *.xltm
 *.xls
+
+
 
 WinCCOAFrameworkAppExample/colorDB/.colorDB.lock
 
@@ -17,3 +19,6 @@ WinCCOAFrameworkAppExample/data/Reporting/Templates/InformationServer/WinCC_OA_L
 WinCCOAFrameworkAppExample/data/Reporting/Templates/InformationServer/WinCC_OA_AlarmTable.rdl
 WinCCOAFrameworkAppExample/data/Reporting/Templates/BIRT/localization.properties
 WinCCOAFrameworkAppExample/data/Reporting/Templates/BIRT/localization_de_AT.properties
+
+WinCCOAFrameworkAppExample/db/wincc_oa/localdb/*
+
