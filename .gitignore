@@ -1,7 +1,7 @@
 
 *.log
 
-*.sqlite-*
+
 *.bak
 *.tmp
 *.rptdesign
