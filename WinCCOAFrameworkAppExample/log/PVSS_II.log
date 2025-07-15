@@ -19302,3 +19302,1021 @@ WCCILpmon    (1), 2025.07.09 08:11:50.882, SYS,  INFO,       13/pmon, Completely
 WCCILpmon    (1), 2025.07.09 08:38:55.879, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
 WCCILpmon    (1), 2025.07.09 08:38:55.888, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
 WCCILpmon    (1), 2025.07.09 08:38:55.895, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:16.007, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:16.026, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:16.028, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:16.569, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:16.581, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:16.584, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:17.122, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:17.133, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:17.137, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:17.683, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:17.699, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:17.702, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:18.225, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:18.234, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:18.237, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:18.765, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:18.779, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:18.782, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:19.301, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:19.311, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:19.314, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:19.789, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:19.803, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:19.808, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:20.341, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:20.350, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:20.354, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:20.884, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:20.896, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:20.900, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:21.103, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:21.115, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:21.118, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:21.570, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:21.582, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:21.584, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:22.112, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:22.121, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:22.124, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:22.650, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:22.660, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:22.662, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:23.199, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:23.210, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:23.213, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:23.723, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:23.732, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:23.735, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:24.271, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:24.278, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:24.282, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:24.830, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:24.840, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:24.842, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:25.300, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:25.307, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:25.310, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:25.842, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:25.851, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:25.853, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:26.404, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:26.415, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:26.418, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:26.951, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:26.962, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:26.965, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:27.417, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:27.425, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:27.427, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:27.960, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:27.968, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:27.971, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:28.521, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:28.528, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:28.531, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:29.060, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:29.069, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:29.072, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:29.550, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:29.560, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:29.562, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:30.103, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:30.111, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:30.113, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:30.642, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:30.651, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:30.654, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:31.185, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:31.192, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:31.195, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:31.665, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:31.674, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:31.677, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:32.210, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:32.220, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:32.223, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:32.755, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:32.763, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:32.766, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:33.754, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:33.762, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:33.764, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:34.297, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:34.304, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:34.307, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:34.836, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:34.843, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:34.845, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:35.274, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:35.282, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:35.284, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:35.758, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:35.766, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:35.768, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:36.297, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:36.305, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:36.308, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:36.850, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:36.859, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:36.862, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:37.362, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:37.370, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:37.373, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:37.904, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:37.914, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:37.916, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:38.439, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:38.448, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:38.451, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:38.986, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:38.996, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:38.999, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:39.473, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:39.481, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:39.484, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:40.022, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:40.031, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:40.034, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:40.565, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:40.577, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:40.580, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:41.091, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:41.099, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:41.101, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:41.601, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:41.611, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:41.614, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:42.121, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:42.128, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:42.131, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:42.677, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:42.687, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:42.690, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:43.204, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:43.212, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:43.215, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:43.724, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:43.734, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:43.738, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:44.255, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:44.262, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:44.265, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:44.708, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:44.719, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:44.722, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:45.246, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:45.256, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:45.258, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:45.750, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:45.759, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:45.762, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:46.264, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:46.273, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:46.276, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:46.726, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:46.734, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:46.737, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:47.273, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:47.281, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:47.284, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:47.816, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:47.827, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:47.829, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:48.362, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:48.372, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:48.374, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:48.856, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:48.864, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:48.866, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:49.403, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:49.411, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:49.414, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:49.939, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:49.951, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:49.954, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:50.446, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:50.455, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:50.457, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:50.989, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:50.998, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:51.001, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:51.526, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:51.533, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:51.536, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:52.079, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:52.088, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:52.092, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:52.605, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:52.615, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:52.619, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:53.141, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:53.152, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:53.154, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:53.696, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:53.704, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:53.706, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:54.227, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:54.236, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:54.239, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:54.746, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:54.756, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:54.759, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:55.273, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:55.281, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:55.284, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:55.823, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:55.831, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:55.835, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:56.367, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:56.376, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:56.379, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:56.887, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:56.897, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:56.900, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:57.417, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:57.425, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:57.427, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:57.854, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:57.865, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:57.867, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:58.437, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:58.447, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:58.451, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:58.907, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:58.916, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:58.920, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:59.448, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:59.457, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:59.460, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:32:59.989, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:32:59.997, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:32:59.999, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:00.435, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:00.446, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:00.449, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:00.988, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:00.998, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:01.002, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:01.502, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:01.513, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:01.515, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:02.057, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:02.066, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:02.070, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:02.639, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:02.650, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:02.653, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:03.106, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:03.117, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:03.121, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:03.662, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:03.672, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:03.675, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:04.209, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:04.218, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:04.221, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:04.712, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:04.722, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:04.725, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:05.243, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:05.253, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:05.256, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:05.813, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:05.823, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:05.826, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:06.339, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:06.346, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:06.349, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:06.843, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:06.853, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:06.856, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:07.391, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:07.403, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:07.406, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:07.940, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:07.950, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:07.953, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:08.481, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:08.490, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:08.493, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:08.971, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:08.978, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:08.981, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:09.510, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:09.518, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:09.521, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:10.058, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:10.067, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:10.070, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:10.602, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:10.612, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:10.615, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:11.107, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:11.116, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:11.119, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:11.662, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:11.670, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:11.673, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:12.204, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:12.212, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:12.215, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:12.755, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:12.763, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:12.766, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:13.244, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:13.252, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:13.254, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:13.697, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:13.706, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:13.710, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:14.227, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:14.237, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:14.239, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:14.681, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:14.691, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:14.694, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:15.254, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:15.261, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:15.263, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:15.709, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:15.715, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:15.717, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:16.245, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:16.253, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:16.257, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:16.788, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:16.798, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:16.800, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:17.389, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:17.396, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:17.398, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:17.839, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:17.848, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:17.851, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:18.384, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:18.392, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:18.395, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:18.829, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:18.837, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:18.840, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:19.344, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:19.356, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:19.359, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:19.875, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:19.884, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:19.887, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:20.430, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:20.444, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:20.447, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:20.934, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:20.944, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:20.946, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:27.551, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:27.560, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:27.563, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:28.090, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:28.099, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:28.102, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:28.640, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:28.648, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:28.652, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:29.146, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:29.155, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:29.157, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:29.698, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:29.706, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:29.709, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:30.235, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:30.245, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:30.247, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:30.678, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:30.684, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:30.687, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:31.060, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:31.069, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:31.071, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:31.517, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:31.524, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:31.527, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:32.054, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:32.063, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:32.066, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:32.602, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:32.610, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:32.612, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:33.086, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:33.096, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:33.098, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:33.628, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:33.636, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:33.639, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:34.179, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:34.187, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:34.191, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:34.751, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:34.760, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:34.763, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:35.228, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:35.242, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:35.245, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:35.762, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:35.771, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:35.775, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:36.309, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:36.319, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:36.321, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:36.836, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:36.845, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:36.848, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:37.294, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:37.306, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:37.309, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:37.866, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:37.875, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:37.878, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:38.419, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:38.428, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:38.431, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:38.949, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:38.958, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:38.960, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:39.506, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:39.516, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:39.518, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:40.028, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:40.037, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:40.041, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:40.483, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:40.491, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:40.495, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:41.024, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:41.034, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:41.036, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:41.570, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:41.583, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:41.587, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:42.127, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:42.137, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:42.140, SYS,  INFO,        2, Manager Stop
+WCCILdataSQLite(0), 2025.07.09 10:33:42.755, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:33:42.767, SYS,  FATAL,     158, Could not create the server socket on port = 4897: Invalid argument
+WCCILdataSQLite(0), 2025.07.09 10:33:42.770, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.09 10:36:14.145, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.07.09 10:36:19.249, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCILdataSQLite(1) at index 1
+WCCILpmon    (1), 2025.07.09 10:36:19.298, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 1 
+WCCILdataSQLite(0), 2025.07.09 10:36:19.430, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.09 10:36:19.457, SYS,  INFO,        0, Initialize archive smoothing
+WCCILdataSQLite(0), 2025.07.09 10:36:19.457, SYS,  INFO,        0, Loading DpIdentification
+WCCILdataSQLite(0), 2025.07.09 10:36:19.472, SYS,  INFO,        0, Initializing last value cache
+WCCILdataSQLite(0), 2025.07.09 10:36:19.478, SYS,  INFO,        0, Loading internal datapoints
+WCCILdataSQLite(0), 2025.07.09 10:36:19.482, SYS,  INFO,        0, Initializing Alert Class cache
+WCCILdataSQLite(0), 2025.07.09 10:36:19.484, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdataSQLite(0), 2025.07.09 10:36:19.484, SYS,  INFO,        0, NextGen Archiver will be used...
+WCCILdataSQLite(0), 2025.07.09 10:36:19.485, IMPL, SEVERE,     54, Unexpected state, DataManDpIntern, refreshDiskStatus, The path: 'C:/Projekte/Siemens Open Source/winccoa-ae-ui-ptframework/WinCCOAFrameworkAppExample/db' for the online backup cannot be reached. Please correct it in the online backup configuration panel.
+WCCILpmon    (1), 2025.07.09 10:36:24.493, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAnextgenarch(1) at index 2
+WCCILpmon    (1), 2025.07.09 10:36:24.622, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 2 
+WCCOAnextgenarch(0), 2025.07.09 10:36:24.869, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAnextgenarch(118), 2025.07.09 10:36:24.872, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAnextgenarch(118), 2025.07.09 10:36:24.891, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:24.911, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 120 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:25.145, SYS,  INFO,        0, Manager (SYS: 1 Data -num 120 CONN: 1) initialised
+WCCOAnextgenarch(118), 2025.07.09 10:36:25.145, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2025.07.09 10:36:27.439, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCOAnextgenarch(118), 2025.07.09 10:36:27.734, IMPL, INFO,        0, Starting backend plugin NGAPostgreSQLBackend for "System1:_NGA_B_PostgreSQLBackend"
+WCCOAnextgenarch(118), 2025.07.09 10:36:27.809, IMPL, INFO,        0, PostgreSQL backend has been connected to frontend without encryption (from System1:_NGA_B_PostgreSQLBackend) 
+WCCILpmon    (1), 2025.07.09 10:36:27.857, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 3 
+WCCILevent   (0), 2025.07.09 10:36:28.018, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILevent   (0), 2025.07.09 10:36:28.019, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCILevent   (0), 2025.07.09 10:36:28.184, SYS,  INFO,      108, License information, Initializing CodeMeter container 130-1615678975 (LOCAL)
+WCCILevent   (0), 2025.07.09 10:36:28.197, SYS,  INFO,      108, License information, 
+version     = 32000000
+sn          = "CodeMeter sn:130-1615678975"
+expire      = 2026.02.01;00:59:59,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+update      = 2
+
+
+WCCILevent   (0), 2025.07.09 10:36:28.198, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2025.07.09 10:36:28.213, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:28.223, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:28.224, SYS,  INFO,        0, Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdataSQLite(0), 2025.07.09 10:36:28.376, SYS,  INFO,        0, Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2025.07.09 10:36:28.378, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2025.07.09 10:36:28.527, SYS,  INFO,      169, Initialize 94 dp-functions
+WCCILevent   (0), 2025.07.09 10:36:28.569, SYS,  INFO,      168, Initialize 269 alerts
+WCCILevent   (0), 2025.07.09 10:36:28.580, SYS,  WARNING,   108, License information, Eventmanager will shutdown after the demo period of 2592000 seconds
+WCCILevent   (0), 2025.07.09 10:36:28.584, SYS,  INFO,      103, User names/passwords initialized
+WCCOAnextgenarch(118), 2025.07.09 10:36:28.585, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILdataSQLite(0), 2025.07.09 10:36:28.587, SYS,  INFO,      103, User names/passwords initialized
+WCCOAnextgenarch(118), 2025.07.09 10:36:28.596, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.09 10:36:28.607, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 120 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:28.611, SYS,  INFO,        0, Manager (SYS: 1 Data -num 120 CONN: 1) initialised
+WCCILpmon    (1), 2025.07.09 10:36:28.663, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 4 
+WCCOAnextgenarch(118), 2025.07.09 10:36:28.817, SYS,  INFO,      103, User names/passwords initialized
+WCCILproxy   (1), 2025.07.09 10:36:28.825, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILproxy   (1), 2025.07.09 10:36:28.902, SYS,  INFO,        0, Can maintain up to 512 concurrent connections
+WCCILpmon    (1), 2025.07.09 10:36:29.051, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCOActrl    (1), 2025.07.09 10:36:29.208, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOActrl    (1), 2025.07.09 10:36:29.209, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (1), 2025.07.09 10:36:29.228, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:29.237, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:29.252, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2025.07.09 10:36:29.255, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2025.07.09 10:36:29.256, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2025.07.09 10:36:29.267, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.09 10:36:29.281, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:29.284, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2025.07.09 10:36:29.285, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2025.07.09 10:36:29.286, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.09 10:36:29.451, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 6 
+WCCILsim     (1), 2025.07.09 10:36:29.591, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILsim     (1), 2025.07.09 10:36:29.724, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2025.07.09 10:36:29.743, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:29.752, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:29.763, SYS,  INFO,        0, Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2025.07.09 10:36:29.763, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2025.07.09 10:36:29.763, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2025.07.09 10:36:29.776, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.09 10:36:29.912, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILsim     (1), 2025.07.09 10:36:29.923, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 2592000 seconds
+WCCILsim     (1), 2025.07.09 10:36:29.923, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2025.07.09 10:36:30.018, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 7 -m gedi
+WCCOAnextgenarch(118), 2025.07.09 10:36:30.226, IMPL, SEVERE,     69, Database error, Cannot connect to database. (from System1:_NGA_B_PostgreSQLBackend) 
+WCCOAui      (0), 2025.07.09 10:36:31.103, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAui      (0), 2025.07.09 10:36:32.257, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2025.07.09 10:36:32.281, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:32.294, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:32.308, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2025.07.09 10:36:32.308, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2025.07.09 10:36:32.309, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2025.07.09 10:36:32.323, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.09 10:36:32.344, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:32.354, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2025.07.09 10:36:32.355, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2025.07.09 10:36:32.359, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.09 10:36:32.473, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 8 -p vision/login.pnl -dbg UI_INFO
+WCCOAui      (0), 2025.07.09 10:36:33.616, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAui      (0), 2025.07.09 10:36:33.655, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2025.07.09 10:36:33.682, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:33.698, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 2 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:33.765, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 2 CONN: 1) initialised
+WCCOAui      (2), 2025.07.09 10:36:33.767, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (2), 2025.07.09 10:36:33.768, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (2), 2025.07.09 10:36:33.785, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.09 10:36:33.803, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 2 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.09 10:36:33.809, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 2 CONN: 1) initialised
+WCCOAui      (2), 2025.07.09 10:36:33.811, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (2), 2025.07.09 10:36:33.819, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.09 10:36:33.825, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOAnextgenarch(118), 2025.07.09 10:36:38.801, IMPL, INFO,        0, [Backend] Default PostgreSQL server cannot start. (from System1:_NGA_B_PostgreSQLBackend) 
+WCCOAui      (2), 2025.07.09 10:36:39.068, PARAM,INFO,      200/OaLogin, Successful Login, User: root
+WCCOActrl    (1), 2025.07.09 10:37:06.575, CTRL, INFO,        0, Cyclic updateUserGroups running every 60 minutes.
+WCCOActrl    (1), 2025.07.09 10:37:14.405, CTRL, INFO,        0, AES creation: _AESPropertiesRTRow_2_mainModule_2_Bot - _AESProperties, root, UI -num 2
+WCCILpmon    (1), 2025.07.09 10:41:06.579, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2025.07.09 10:41:06.581, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(2) with signal SIGTERM
+WCCILpmon    (1), 2025.07.09 10:41:06.583, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2025.07.09 10:41:06.585, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2025.07.09 10:41:06.586, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2025.07.09 10:41:06.587, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCOAui      (1), 2025.07.09 10:41:06.588, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2025.07.09 10:41:06.594, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOAui      (2), 2025.07.09 10:41:06.594, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2025.07.09 10:41:06.610, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.09 10:41:06.611, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2025.07.09 10:41:06.610, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILsim     (1), 2025.07.09 10:41:06.612, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.09 10:41:06.612, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2025.07.09 10:41:06.613, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2025.07.09 10:41:06.613, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2025.07.09 10:41:06.619, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOActrl    (1), 2025.07.09 10:41:06.620, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.09 10:41:06.621, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2025.07.09 10:41:06.621, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCOActrl    (1), 2025.07.09 10:41:06.622, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.09 10:41:06.622, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2025.07.09 10:41:06.623, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2025.07.09 10:41:06.624, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2025.07.09 10:41:06.648, SYS,  INFO,        2, Manager Stop
+WCCOAui      (2), 2025.07.09 10:41:06.742, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (2), 2025.07.09 10:41:06.744, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.09 10:41:06.744, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 2 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.09 10:41:06.745, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.09 10:41:06.745, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 2 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.09 10:41:06.745, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.09 10:41:06.816, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2025.07.09 10:41:07.161, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (1), 2025.07.09 10:41:07.162, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.09 10:41:07.162, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2025.07.09 10:41:07.163, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.09 10:41:07.163, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2025.07.09 10:41:07.163, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2025.07.09 10:41:07.280, SYS,  INFO,        2, Manager Stop
+WCCOAnextgenarch(118), 2025.07.09 10:41:10.112, IMPL, INFO,        0, Backend plugin thread has finished executing without exception for NGAPostgreSQLBackend
+WCCOAnextgenarch(118), 2025.07.09 10:41:10.633, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAnextgenarch(118), 2025.07.09 10:41:10.634, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.09 10:41:10.634, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.09 10:41:10.634, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2025.07.09 10:41:10.635, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2025.07.09 10:41:10.635, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2025.07.09 10:41:10.639, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.09 10:41:10.652, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2025.07.09 10:41:10.747, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2025.07.09 10:41:10.858, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2025.07.09 10:41:10.859, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.09 10:41:10.860, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.09 10:41:10.860, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.09 10:41:10.880, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.09 10:41:10.921, SYS,  INFO,       17/pmon, Stopping Manager WCCILdataSQLite(0) with signal SIGTERM
+WCCILdataSQLite(0), 2025.07.09 10:41:11.866, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdataSQLite(0), 2025.07.09 10:41:12.876, SYS,  INFO,        0, Closing databases
+WCCILdataSQLite(0), 2025.07.09 10:41:12.879, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.09 10:41:12.939, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2025.07.09 10:41:12.941, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2025.07.09 10:41:13.251, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILproxy   (1), 2025.07.09 10:41:13.256, SYS,  SEVERE,     54, Unexpected state, OS_accept(): , [10038] An operation was attempted on something that is not a socket.
+
+WCCILpmon    (1), 2025.07.09 10:41:13.266, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2025.07.09 10:41:21.247, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2025.07.09 10:41:21.248, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2025.07.09 10:41:21.251, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.09 13:44:11.650, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.07.09 13:45:19.738, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2025.07.09 13:45:19.740, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2025.07.09 13:45:19.742, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.15 14:50:28.765, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.07.15 14:50:30.452, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2025.07.15 14:50:30.528, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 1 
+WCCILdataSQLite(0), 2025.07.15 14:50:30.702, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.15 14:50:30.730, SYS,  INFO,        0, Initialize archive smoothing
+WCCILdataSQLite(0), 2025.07.15 14:50:30.731, SYS,  INFO,        0, Loading DpIdentification
+WCCILdataSQLite(0), 2025.07.15 14:50:30.746, SYS,  INFO,        0, Initializing last value cache
+WCCILdataSQLite(0), 2025.07.15 14:50:30.751, SYS,  INFO,        0, Loading internal datapoints
+WCCILdataSQLite(0), 2025.07.15 14:50:30.754, SYS,  INFO,        0, Initializing Alert Class cache
+WCCILdataSQLite(0), 2025.07.15 14:50:30.755, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdataSQLite(0), 2025.07.15 14:50:30.756, SYS,  INFO,        0, NextGen Archiver will be used...
+WCCILpmon    (1), 2025.07.15 14:50:30.909, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 2 
+WCCOAnextgenarch(0), 2025.07.15 14:50:31.052, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAnextgenarch(118), 2025.07.15 14:50:31.055, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAnextgenarch(118), 2025.07.15 14:50:31.074, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:31.090, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 120 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:31.248, SYS,  INFO,        0, Manager (SYS: 1 Data -num 120 CONN: 1) initialised
+WCCOAnextgenarch(118), 2025.07.15 14:50:31.249, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAnextgenarch(118), 2025.07.15 14:50:32.226, IMPL, INFO,        0, Starting backend plugin NGAPostgreSQLBackend for "System1:_NGA_B_PostgreSQLBackend"
+WCCOAnextgenarch(118), 2025.07.15 14:50:32.306, IMPL, INFO,        0, PostgreSQL backend has been connected to frontend without encryption (from System1:_NGA_B_PostgreSQLBackend) 
+WCCILpmon    (1), 2025.07.15 14:50:32.402, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 3 
+WCCILevent   (0), 2025.07.15 14:50:32.514, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILevent   (0), 2025.07.15 14:50:32.516, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCILevent   (0), 2025.07.15 14:50:32.637, SYS,  INFO,      108, License information, Initializing CodeMeter container 130-1615678975 (LOCAL)
+WCCILevent   (0), 2025.07.15 14:50:32.644, SYS,  INFO,      108, License information, 
+version     = 32000000
+sn          = "CodeMeter sn:130-1615678975"
+expire      = 2026.02.01;00:59:59,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+update      = 2
+
+
+WCCILevent   (0), 2025.07.15 14:50:32.645, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2025.07.15 14:50:32.656, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:32.665, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:32.666, SYS,  INFO,        0, Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdataSQLite(0), 2025.07.15 14:50:32.753, SYS,  INFO,        0, Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2025.07.15 14:50:32.758, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2025.07.15 14:50:32.935, SYS,  INFO,      169, Initialize 94 dp-functions
+WCCILevent   (0), 2025.07.15 14:50:32.964, SYS,  INFO,      168, Initialize 269 alerts
+WCCILevent   (0), 2025.07.15 14:50:32.974, SYS,  WARNING,   108, License information, Eventmanager will shutdown after the demo period of 2592000 seconds
+WCCILevent   (0), 2025.07.15 14:50:32.978, SYS,  INFO,      103, User names/passwords initialized
+WCCOAnextgenarch(118), 2025.07.15 14:50:32.978, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILdataSQLite(0), 2025.07.15 14:50:32.981, SYS,  INFO,      103, User names/passwords initialized
+WCCOAnextgenarch(118), 2025.07.15 14:50:33.006, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:50:33.015, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 120 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:33.018, SYS,  INFO,        0, Manager (SYS: 1 Data -num 120 CONN: 1) initialised
+WCCILpmon    (1), 2025.07.15 14:50:33.089, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 4 
+WCCILproxy   (1), 2025.07.15 14:50:33.202, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAnextgenarch(118), 2025.07.15 14:50:33.210, SYS,  INFO,      103, User names/passwords initialized
+WCCILproxy   (1), 2025.07.15 14:50:33.252, SYS,  INFO,        0, Can maintain up to 512 concurrent connections
+WCCILpmon    (1), 2025.07.15 14:50:33.456, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCOActrl    (1), 2025.07.15 14:50:33.565, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOActrl    (1), 2025.07.15 14:50:33.566, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (1), 2025.07.15 14:50:33.582, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:33.588, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:33.594, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2025.07.15 14:50:33.595, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2025.07.15 14:50:33.595, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2025.07.15 14:50:33.617, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:50:33.628, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:33.640, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2025.07.15 14:50:33.640, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2025.07.15 14:50:33.642, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.15 14:50:33.824, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 6 
+WCCILsim     (1), 2025.07.15 14:50:33.934, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILsim     (1), 2025.07.15 14:50:34.020, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2025.07.15 14:50:34.037, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:34.044, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:34.050, SYS,  INFO,        0, Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2025.07.15 14:50:34.051, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2025.07.15 14:50:34.051, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2025.07.15 14:50:34.078, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:50:34.156, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILsim     (1), 2025.07.15 14:50:34.164, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 2592000 seconds
+WCCILsim     (1), 2025.07.15 14:50:34.164, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2025.07.15 14:50:34.265, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 7 -m gedi
+WCCOAnextgenarch(118), 2025.07.15 14:50:34.735, IMPL, SEVERE,     69, Database error, Cannot connect to database. (from System1:_NGA_B_PostgreSQLBackend) 
+WCCOAui      (0), 2025.07.15 14:50:35.016, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAnextgenarch(118), 2025.07.15 14:50:35.502, IMPL, INFO,        0, [Backend] Default PostgreSQL server cannot start. (from System1:_NGA_B_PostgreSQLBackend) 
+WCCOAui      (0), 2025.07.15 14:50:37.131, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2025.07.15 14:50:37.150, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:37.158, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:37.167, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2025.07.15 14:50:37.170, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2025.07.15 14:50:37.170, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2025.07.15 14:50:37.180, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:50:37.198, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:37.201, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2025.07.15 14:50:37.202, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2025.07.15 14:50:37.205, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.15 14:50:37.234, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 8 -p vision/login.pnl -dbg UI_INFO
+WCCOAui      (0), 2025.07.15 14:50:37.895, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAui      (0), 2025.07.15 14:50:37.918, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2025.07.15 14:50:37.934, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:37.943, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 2 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:37.981, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 2 CONN: 1) initialised
+WCCOAui      (2), 2025.07.15 14:50:37.983, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (2), 2025.07.15 14:50:37.983, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (2), 2025.07.15 14:50:37.994, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:50:38.006, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 2 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:50:38.017, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 2 CONN: 1) initialised
+WCCOAui      (2), 2025.07.15 14:50:38.018, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (2), 2025.07.15 14:50:38.027, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.15 14:50:38.101, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOActrl    (1), 2025.07.15 14:51:06.004, CTRL, INFO,        0, Cyclic updateUserGroups running every 60 minutes.
+WCCOAnextgenarch(118), 2025.07.15 14:51:43.612, IMPL, SEVERE,     69, Database error, [Backend] Default PostgreSQLserver cannot start. PostgresqlServer::isRunning: cannot access PGDATA (does not exist or is forbidden) (from System1:_NGA_B_PostgreSQLBackend) 
+WCCOAui      (2), 2025.07.15 14:55:49.755, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (2), 2025.07.15 14:55:49.756, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:55:49.756, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 2 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.15 14:55:49.756, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:55:49.756, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 2 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.15 14:55:49.757, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.15 14:55:49.822, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.15 14:55:49.911, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAui(2) - restarting it #1
+WCCILpmon    (1), 2025.07.15 14:55:49.920, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 8 -p vision/login.pnl -dbg UI_INFO
+WCCOAui      (0), 2025.07.15 14:55:51.516, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAui      (0), 2025.07.15 14:55:51.751, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2025.07.15 14:55:51.772, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:55:51.784, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 2 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:55:51.857, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 2 CONN: 1) initialised
+WCCOAui      (2), 2025.07.15 14:55:51.858, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (2), 2025.07.15 14:55:51.858, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (2), 2025.07.15 14:55:51.878, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:55:51.894, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 2 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:55:51.904, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 2 CONN: 1) initialised
+WCCOAui      (2), 2025.07.15 14:55:51.904, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (2), 2025.07.15 14:55:51.912, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.15 14:56:51.322, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2025.07.15 14:56:51.324, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(2) with signal SIGTERM
+WCCILpmon    (1), 2025.07.15 14:56:51.325, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2025.07.15 14:56:51.326, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2025.07.15 14:56:51.327, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCOAui      (2), 2025.07.15 14:56:51.328, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOAui      (1), 2025.07.15 14:56:51.328, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2025.07.15 14:56:51.329, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILsim     (1), 2025.07.15 14:56:51.330, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2025.07.15 14:56:51.346, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2025.07.15 14:56:51.347, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+), Connection closed
+WCCILsim     (1), 2025.07.15 14:56:51.348, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:56:51.348, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2025.07.15 14:56:51.350, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2025.07.15 14:56:51.351, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2025.07.15 14:56:51.354, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOActrl    (1), 2025.07.15 14:56:51.355, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2025.07.15 14:56:51.355, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:56:51.355, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:56:51.356, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2025.07.15 14:56:51.356, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2025.07.15 14:56:51.357, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2025.07.15 14:56:51.358, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2025.07.15 14:56:51.381, SYS,  INFO,        2, Manager Stop
+WCCOAui      (2), 2025.07.15 14:56:51.526, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:56:51.528, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 2 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.15 14:56:51.528, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCOAui      (2), 2025.07.15 14:56:51.529, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:56:51.530, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 2 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.15 14:56:51.532, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.15 14:56:51.593, SYS,  INFO,        2, Manager Stop
+WCCOAnextgenarch(118), 2025.07.15 14:56:52.125, IMPL, INFO,        0, Backend plugin thread has finished executing without exception for NGAPostgreSQLBackend
+WCCOAnextgenarch(118), 2025.07.15 14:56:52.518, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAnextgenarch(118), 2025.07.15 14:56:52.518, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:56:52.518, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:56:52.519, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2025.07.15 14:56:52.520, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2025.07.15 14:56:52.520, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2025.07.15 14:56:52.524, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2025.07.15 14:56:52.748, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:56:52.748, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2025.07.15 14:56:52.750, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:56:52.750, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2025.07.15 14:56:52.750, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2025.07.15 14:56:52.887, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.15 14:56:52.888, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2025.07.15 14:56:52.965, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2025.07.15 14:56:52.965, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2025.07.15 14:56:52.966, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:56:52.967, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:56:52.967, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:56:52.986, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.15 14:56:52.996, SYS,  INFO,       17/pmon, Stopping Manager WCCILdataSQLite(0) with signal SIGTERM
+WCCILdataSQLite(0), 2025.07.15 14:56:53.980, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdataSQLite(0), 2025.07.15 14:56:54.992, SYS,  INFO,        0, Closing databases
+WCCILdataSQLite(0), 2025.07.15 14:56:54.995, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.15 14:56:55.025, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2025.07.15 14:56:55.027, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2025.07.15 14:56:55.117, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILproxy   (1), 2025.07.15 14:56:55.117, SYS,  SEVERE,     54, Unexpected state, OS_accept(): , [10038] An operation was attempted on something that is not a socket.
+
+WCCILpmon    (1), 2025.07.15 14:56:55.135, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2025.07.15 14:57:00.227, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2025.07.15 14:57:00.276, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 1 
+WCCILdataSQLite(0), 2025.07.15 14:57:00.470, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILdataSQLite(0), 2025.07.15 14:57:00.492, SYS,  INFO,        0, Initialize archive smoothing
+WCCILdataSQLite(0), 2025.07.15 14:57:00.492, SYS,  INFO,        0, Loading DpIdentification
+WCCILdataSQLite(0), 2025.07.15 14:57:00.506, SYS,  INFO,        0, Initializing last value cache
+WCCILdataSQLite(0), 2025.07.15 14:57:00.512, SYS,  INFO,        0, Loading internal datapoints
+WCCILdataSQLite(0), 2025.07.15 14:57:00.513, SYS,  INFO,        0, Initializing Alert Class cache
+WCCILdataSQLite(0), 2025.07.15 14:57:00.514, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdataSQLite(0), 2025.07.15 14:57:00.515, SYS,  INFO,        0, NextGen Archiver will be used...
+WCCILpmon    (1), 2025.07.15 14:57:00.657, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 2 
+WCCOAnextgenarch(0), 2025.07.15 14:57:00.870, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAnextgenarch(118), 2025.07.15 14:57:00.872, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAnextgenarch(118), 2025.07.15 14:57:00.888, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:00.900, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 120 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:01.015, SYS,  INFO,        0, Manager (SYS: 1 Data -num 120 CONN: 1) initialised
+WCCOAnextgenarch(118), 2025.07.15 14:57:01.016, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAnextgenarch(118), 2025.07.15 14:57:18.948, IMPL, INFO,        0, Starting backend plugin NGAPostgreSQLBackend for "System1:_NGA_B_PostgreSQLBackend"
+WCCILpmon    (1), 2025.07.15 14:57:19.019, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 3 
+WCCOAnextgenarch(118), 2025.07.15 14:57:19.062, IMPL, INFO,        0, PostgreSQL backend has been connected to frontend without encryption (from System1:_NGA_B_PostgreSQLBackend) 
+WCCILevent   (0), 2025.07.15 14:57:19.134, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILevent   (0), 2025.07.15 14:57:19.135, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCILevent   (0), 2025.07.15 14:57:19.242, SYS,  INFO,      108, License information, Initializing CodeMeter container 130-1615678975 (LOCAL)
+WCCILevent   (0), 2025.07.15 14:57:19.253, SYS,  INFO,      108, License information, 
+version     = 32000000
+sn          = "CodeMeter sn:130-1615678975"
+expire      = 2026.02.01;00:59:59,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+update      = 2
+
+
+WCCILevent   (0), 2025.07.15 14:57:19.254, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2025.07.15 14:57:19.265, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:19.274, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:19.282, SYS,  INFO,        0, Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdataSQLite(0), 2025.07.15 14:57:19.378, SYS,  INFO,        0, Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2025.07.15 14:57:19.383, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2025.07.15 14:57:19.445, SYS,  INFO,      169, Initialize 94 dp-functions
+WCCILevent   (0), 2025.07.15 14:57:19.490, SYS,  INFO,      168, Initialize 269 alerts
+WCCILevent   (0), 2025.07.15 14:57:19.501, SYS,  WARNING,   108, License information, Eventmanager will shutdown after the demo period of 2592000 seconds
+WCCILevent   (0), 2025.07.15 14:57:19.506, SYS,  INFO,      103, User names/passwords initialized
+WCCOAnextgenarch(118), 2025.07.15 14:57:19.507, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILdataSQLite(0), 2025.07.15 14:57:19.511, SYS,  INFO,      103, User names/passwords initialized
+WCCOAnextgenarch(118), 2025.07.15 14:57:19.525, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:57:19.542, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 120 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:19.545, SYS,  INFO,        0, Manager (SYS: 1 Data -num 120 CONN: 1) initialised
+WCCILpmon    (1), 2025.07.15 14:57:19.606, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 4 
+WCCOAnextgenarch(118), 2025.07.15 14:57:19.722, SYS,  INFO,      103, User names/passwords initialized
+WCCOAnextgenarch(118), 2025.07.15 14:57:19.737, IMPL, INFO,        0, PostgreSQL backend has established connection with database 127.0.0.1:15432 (from System1:_NGA_B_PostgreSQLBackend) 
+WCCILproxy   (1), 2025.07.15 14:57:19.740, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILproxy   (1), 2025.07.15 14:57:19.822, SYS,  INFO,        0, Can maintain up to 512 concurrent connections
+WCCOAnextgenarch(118), 2025.07.15 14:57:19.905, IMPL, INFO,        0, [DbConnectionConfigProvider] PostgreSQL database schema version is 2.0. (from System1:_NGA_B_PostgreSQLBackend) 
+WCCILpmon    (1), 2025.07.15 14:57:19.960, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCOActrl    (1), 2025.07.15 14:57:20.085, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOActrl    (1), 2025.07.15 14:57:20.085, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (1), 2025.07.15 14:57:20.104, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:20.116, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:20.121, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2025.07.15 14:57:20.124, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2025.07.15 14:57:20.124, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2025.07.15 14:57:20.136, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:57:20.148, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:20.150, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2025.07.15 14:57:20.151, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2025.07.15 14:57:20.153, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.15 14:57:20.338, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 6 
+WCCILsim     (1), 2025.07.15 14:57:20.452, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCILsim     (1), 2025.07.15 14:57:20.536, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2025.07.15 14:57:20.553, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:20.561, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:20.568, SYS,  INFO,        0, Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2025.07.15 14:57:20.569, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2025.07.15 14:57:20.569, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2025.07.15 14:57:20.579, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:57:20.669, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILsim     (1), 2025.07.15 14:57:20.677, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 2592000 seconds
+WCCILsim     (1), 2025.07.15 14:57:20.677, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2025.07.15 14:57:20.767, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 7 -m gedi
+WCCOAui      (0), 2025.07.15 14:57:21.471, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAnextgenarch(118), 2025.07.15 14:57:26.636, IMPL, INFO,        0, All disk buffers processed for backend System1:_NGA_B_PostgreSQLBackend
+WCCOAui      (0), 2025.07.15 14:57:41.847, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2025.07.15 14:57:41.864, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:41.877, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:41.897, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2025.07.15 14:57:41.897, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2025.07.15 14:57:41.898, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2025.07.15 14:57:41.918, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:57:42.143, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:42.160, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2025.07.15 14:57:42.160, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2025.07.15 14:57:42.167, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.15 14:57:42.213, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "WinCCOAFrameworkAppExample" -pmonIndex 8 -p vision/login.pnl -dbg UI_INFO
+WCCOAui      (0), 2025.07.15 14:57:42.834, SYS,  INFO,        1, Manager Start, PROJ, WinCCOAFrameworkAppExample, V 3.20 - 3.20.5 platform Windows AMD64 linked at Mar 12 2025 10:49:08 (81abcedd0e)
+WCCOAui      (0), 2025.07.15 14:57:42.855, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2025.07.15 14:57:42.871, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:42.881, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 2 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:42.913, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 2 CONN: 1) initialised
+WCCOAui      (2), 2025.07.15 14:57:42.915, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (2), 2025.07.15 14:57:42.915, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (2), 2025.07.15 14:57:42.923, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILevent   (0), 2025.07.15 14:57:42.935, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 2 CONN: 1) @ dinm5CG3184V63 (127.0.0.1)
+WCCILdataSQLite(0), 2025.07.15 14:57:42.943, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 2 CONN: 1) initialised
+WCCOAui      (2), 2025.07.15 14:57:42.947, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (2), 2025.07.15 14:57:42.953, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2025.07.15 14:57:42.975, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOActrl    (1), 2025.07.15 14:57:54.095, CTRL, INFO,        0, Cyclic updateUserGroups running every 60 minutes.
+WCCILpmon    (1), 2025.07.15 14:57:57.435, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2025.07.15 14:57:57.438, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(2) with signal SIGTERM
+WCCILpmon    (1), 2025.07.15 14:57:57.440, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2025.07.15 14:57:57.443, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCOAui      (2), 2025.07.15 14:57:57.444, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2025.07.15 14:57:57.444, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCOAui      (1), 2025.07.15 14:57:57.445, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2025.07.15 14:57:57.445, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILsim     (1), 2025.07.15 14:57:57.460, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2025.07.15 14:57:57.475, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2025.07.15 14:57:57.476, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:57:57.476, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2025.07.15 14:57:57.477, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:57:57.476, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2025.07.15 14:57:57.477, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2025.07.15 14:57:57.478, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2025.07.15 14:57:57.481, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOActrl    (1), 2025.07.15 14:57:57.482, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2025.07.15 14:57:57.482, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:57:57.482, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:57:57.482, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2025.07.15 14:57:57.483, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2025.07.15 14:57:57.484, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2025.07.15 14:57:57.484, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2025.07.15 14:57:57.505, SYS,  INFO,        2, Manager Stop
+WCCOAnextgenarch(118), 2025.07.15 14:57:57.582, IMPL, INFO,        0, [FrontendCommandHandler] Frontend sent shutdown command. (from System1:_NGA_B_PostgreSQLBackend) 
+WCCOAui      (2), 2025.07.15 14:57:57.616, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:57:57.617, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 2 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.15 14:57:57.617, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCOAui      (2), 2025.07.15 14:57:57.618, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:57:57.618, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 2 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.15 14:57:57.619, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (2), 2025.07.15 14:57:57.698, SYS,  INFO,        2, Manager Stop
+WCCOAnextgenarch(118), 2025.07.15 14:57:58.152, IMPL, INFO,        0, Backend plugin thread has finished executing without exception for NGAPostgreSQLBackend
+WCCOAui      (1), 2025.07.15 14:57:58.203, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (1), 2025.07.15 14:57:58.204, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:57:58.204, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:57:58.205, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2025.07.15 14:57:58.205, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2025.07.15 14:57:58.206, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2025.07.15 14:57:58.325, SYS,  INFO,        2, Manager Stop
+WCCOAnextgenarch(118), 2025.07.15 14:57:58.546, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAnextgenarch(118), 2025.07.15 14:57:58.547, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:57:58.547, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:57:58.548, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2025.07.15 14:57:58.548, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2025.07.15 14:57:58.550, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2025.07.15 14:57:58.554, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.15 14:57:58.610, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2025.07.15 14:57:58.657, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2025.07.15 14:57:58.657, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2025.07.15 14:57:58.657, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2025.07.15 14:57:58.659, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:57:58.659, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2025.07.15 14:57:58.674, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.15 14:57:58.718, SYS,  INFO,       17/pmon, Stopping Manager WCCILdataSQLite(0) with signal SIGTERM
+WCCILdataSQLite(0), 2025.07.15 14:57:59.670, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdataSQLite(0), 2025.07.15 14:58:00.542, SYS,  INFO,        0, Closing databases
+WCCILdataSQLite(0), 2025.07.15 14:58:00.545, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.07.15 14:58:00.635, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2025.07.15 14:58:00.637, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2025.07.15 14:58:01.248, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILproxy   (1), 2025.07.15 14:58:01.249, SYS,  SEVERE,     54, Unexpected state, OS_accept(): , [10038] An operation was attempted on something that is not a socket.
+
+WCCILpmon    (1), 2025.07.15 14:58:01.295, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2025.07.15 14:58:05.100, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2025.07.15 14:58:05.101, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2025.07.15 14:58:05.111, SYS,  INFO,        2, Manager Stop

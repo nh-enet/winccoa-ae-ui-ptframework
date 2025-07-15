@@ -18952,3 +18952,4 @@ WCCOAui      (2), 2025.02.12 13:02:48.571 (3.20 P004 platform Windows AMD64 link
 2025.06.16 11:13:29.189["Caught"]
 2025.06.16 11:13:29.189["ContextMenuCustom::Open"]["1291<1440"]
 2025.06.16 11:13:30.200["ContextMenuCustom::Open"]["1502>1440"]
+[17232:6932:0715/145301.706:ERROR:dns_config_service.cc(273)] DNS config watch failed.
