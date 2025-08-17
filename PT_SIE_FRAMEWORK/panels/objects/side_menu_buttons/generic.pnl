@@ -1,15 +1,21 @@
 V 14
 6
-LANG:10000 0 
 LANG:10001 0 
+LANG:10000 0 
 LANG:10010 0 
 LANG:10009 0 
 LANG:10007 0 
 LANG:10004 0 
-PANEL,-1 -1 262 50 N "color-1" 1
+PANEL,-1 -1 266 50 N "color-1" 3
+"$bParentNode"
+"$bSubNode"
 "$nodeId"
 "main()
 {
+
+daCollection[iMyScreenNumber] = /*(shared_ptr<GUINaviButtonCollection>)*/ new GUINaviButtonCollection();
+
+
   userButton.SetPointer(userButton);
 
   string strServerName = getSystemName();
@@ -17,12 +23,13 @@ PANEL,-1 -1 262 50 N "color-1" 1
   pt_checkPanelTopologyCache();
   int iPos = $nodeId;
 
-  if (iPos <1)
+  if (iPos < 1)
     iPos *= -1;
   else
     userButton.SetText(g_PanelTopologyCache[strServerName + \"_PanelTopology.nodeName:_online.._value\"][iPos]);
 
   string sIcon = g_PanelTopologyCache[strServerName + \"_PanelTopology.iconName:_online.._value\"][iPos];
+
   if ($nodeId == 1 && sIcon == \"\")
     sIcon = \"Siemens_Dark/white/home_icon1.svg\";
 
@@ -35,14 +42,103 @@ PANEL,-1 -1 262 50 N "color-1" 1
 E "#uses \"classes/GUI/GUINaviPanelButton\"
 #uses \"classes/GUI/GUINaviUserButton\"
 #uses \"classes/GUI/GUINaviButton\"
-
+#uses \"PT_SIEM_FRAMEWORK.ctl\"
 
 shared_ptr<GUINaviButton> userButton = ((int)$nodeId) < 0 ? (new GUINaviUserButton(getShape(\"textRef\"), getShape(\"iconRef\"), getShape(\"frameSelector\"))) :
-                                                  (new GUINaviPanelButton(getShape(\"textRef\"), getShape(\"iconRef\"), getShape(\"frameSelector\"), $nodeId));
+                                       (new GUINaviPanelButton(getShape(\"textRef\"), getShape(\"iconRef\"), getShape(\"frameSelector\"), $nodeId));
 
 
-public shared_ptr<GUINaviButton> GetGUINaviButton(){
+public shared_ptr<GUINaviButton> GetGUINaviButton()
+{
   return userButton;
+}
+
+
+
+//'Ahmed added this part
+int iMyScreenNumber = 1; //get out the screen number
+
+
+public shared_ptr<GUINaviButtonCollection> GetGuiNaviButtonCollection()
+{
+  return daCollection[iMyScreenNumber];
+}
+
+
+
+
+dyn_int GetMyChildren(int currentParentIndex)
+{
+  DebugTN(\"currentParentIndex\", currentParentIndex);
+  string strServerName = getSystemName();
+  dyn_uint ParentNumbers;
+  dyn_int childIndecies;
+  dpGet(strServerName + \"_PanelTopology.parentNumber\", ParentNumbers);
+
+  for (int i = 1; i <= dynlen(ParentNumbers); i++)
+  {
+    DebugTN(\"i=\", i);
+
+    if (ParentNumbers[i]==currentParentIndex)
+    {
+
+      childIndecies.append(i);
+
+    }
+
+
+  }
+
+//\"System1:_PanelTopology.parentNumber\"
+  return childIndecies;
+
+}
+
+void LoadMyChildPanels()
+{
+
+  string strServerName = getSystemName();
+  string moduleName = myModuleName(); //\"naviModule_1\"; /*\"_QuickTest_\";*/
+  string panelName = rootPanel(moduleName);//\"Navi\";/*\"para/PanelTopology/templates/SIE/naviPanel_1024_768_SIE.pnl\";*/
+  int parentID = (int)$nodeId;
+  dyn_int myChildrensIndecies = GetMyChildren(parentID);
+  DebugTN(\"myChildrensIndecies\", myChildrensIndecies);
+
+  for (int i = dynlen(myChildrensIndecies); i >= 1; i--) //1 because ignore start/root node
+  {
+   // DebugTN(\"myChildrensIndecies[i]\", myChildrensIndecies[i]);
+   //// DebugTN(\"currentParentPosition\",parentID);
+
+   // DebugTN(\"requiredChilePosition\",requiredChilePosition);
+   /* addSymbol(moduleName, panelName, \"objects/side_menu_buttons/generic.pnl\", \"navi_btn_\" + myChildrensIndecies[i], parentID+1, moduleName + \".\" + panelName + \":\" + \"LAYOUT_GROUP1\",
+              makeDynString(\"$nodeId:\" + myChildrensIndecies[i], \"$bParentNode:\" + false, \"$bSubNode:\" + true));
+*/
+
+    PT_SIEM_addNaviButton(myChildrensIndecies[i], g_PanelTopologyCache[strServerName + \"_PanelTopology.parentNumber:_online.._value\"][myChildrensIndecies[i]]/*, daCollection[iMyScreenNumber]*/);
+
+
+  /*shape tmp = getShape(myModuleName(),panelName, \"navi_btn_\" + myChildrensIndecies[i]);
+  DebugTN(\"tmp\",tmp);
+   ButtonCollection.Append(tmp.GetGUINaviButton());*/
+  }
+
+
+}
+
+
+
+void RemoveMyChildPanels()
+{
+
+ string strServerName = getSystemName();
+  string moduleName = myModuleName(); //\"naviModule_1\"; /*\"_QuickTest_\";*/
+  string panelName = rootPanel(moduleName);//\"Navi\";/*\"para/PanelTopology/templates/SIE/naviPanel_1024_768_SIE.pnl\";*/
+  int parentID = (int)$nodeId;
+  dyn_int myChildrensIndecies = GetMyChildren(parentID);
+
+PT_SIEM_removeNaviButton(parentID/*, daCollection[iMyScreenNumber]*/);
+
+
 }
 " 0
  4
@@ -54,12 +150,10 @@ public shared_ptr<GUINaviButton> GetGUINaviButton(){
 ""
 DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
 LAYER, 0 
-2
-LANG:10000 0 
-LANG:10001 0 
-1 10 0 "" 0
 0
-1 17 3 "" 0
+1 21 0 "" 0
+0
+1 28 3 "" 0
 0
 6 9
 "frameSelector"
@@ -67,15 +161,16 @@ LANG:10001 0
 1 10 15 E E E 1 E 1 E N "_Transparent" E N "_Transparent" E E
  E E
 4 0 0 0 0 0
-E E "main(bool enter) {
+E E "main(bool enter)
+{
   userButton.SetHoverColor(enter);
 }
 " 0
 
 0
 6
-LANG:10000 0 
 LANG:10001 0 
+LANG:10000 0 
 LANG:10010 0 
 LANG:10009 0 
 LANG:10007 0 
@@ -85,46 +180,154 @@ LANG:10004 0
 "layoutAlignment" "AlignNone"
 "dashclr"N "_Transparent"
 "antiAliased" "0"
-E "main(mapping event) {
+E "main(mapping event)
+{
   userButton.Clicked();
 }
 " 0
  0 1 3 2 1 E U  1 E 10 15 360 130
+2 19
+"parentNavi"
+""
+1 545.5 -1.4210854715202e-14 E E E 1 E 0 E N "color-std-text" E N "_Window" E E
+ E E
+6 0 0 0 0 0
+E E "main(bool enter)
+{
+  userButton.SetHoverColor(enter);
+}
+" 0
+
+0
+1
+LANG:10001 0 
+
+7
+"maximumSize" "30 -1"
+"sizePolicy" "Minimum Preferred"
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"selectable" ""
+"antiAliased" "0"
+"transformable" "0"
+"
+main()
+{
+
+  if ((bool)$bParentNode == TRUE)
+  {
+    this.text = \"+ \";
+    this.visible = true;
+
+  }
+  else
+  {
+    this.text = \"\";
+    this.visible = false;
+  }
+
+
+
+}" 0
+ "bool clicked = true;
+main(mapping event)
+{
+
+
+
+  if (clicked)
+  {
+    DebugTN(\"Hi,Ienterned\");
+    LoadMyChildPanels();
+this.text = \"- \";
+    clicked = false;
+  }
+
+  else
+  {
+    this.text = \"+ \";
+RemoveMyChildPanels();
+    clicked = true;
+  }
+}
+" 0
+ 0 1 3 2 1 E U  0 E 545 5.648814749292796e-13 575 20.00000000000056
+0 2 2 "0s" 0 0 0 73 0 0  545 5.648814749292796e-13 1
+1
+LANG:10001 48 Noto Sans,-1,30,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold
+0 1
+LANG:10001 1 +
+2 20
+"childNavi"
+""
+1 69.85576923077159 19.99999999999942 E E E 1 E 0 E N "_WindowText" E N "_Window" E E
+ E E
+7 0 0 0 0 0
+E E "main(bool enter)
+{
+  userButton.SetHoverColor(enter);
+}
+" 0
+
+0
+1
+LANG:10001 0 
+
+6
+"maximumSize" "60 -1"
+"sizePolicy" "Expanding Preferred"
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"selectable" ""
+"antiAliased" "0"
+"
+main()
+{
+  this.text = \"\";
+  this.visible = false;
+
+  if ((bool)$bSubNode == FALSE)
+  {
+
+    this.text = \"\";
+    this.visible = false;
+
+  }
+  else
+  {
+    this.text = \"    \";
+    this.visible = true;
+  }
+
+}
+" 0
+ E 0 1 3 2 1 E 2.311111111111293 0 1 -787.4444444444625 4.916666666666003 0 E 70 20 100 40
+0 2 2 "0s" 0 0 0 72 0 0  70 20 1
+1
+LANG:10001 48 Noto Sans,-1,20,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold
+0 1
+LANG:10001 0 
 0
 LAYER, 1 
-2
-LANG:10000 0 
-LANG:10001 0 
+0
 0
 LAYER, 2 
-2
-LANG:10000 0 
-LANG:10001 0 
+0
 0
 LAYER, 3 
-2
-LANG:10000 0 
-LANG:10001 0 
+0
 0
 LAYER, 4 
-2
-LANG:10000 0 
-LANG:10001 0 
+0
 0
 LAYER, 5 
-2
-LANG:10000 0 
-LANG:10001 0 
+0
 0
 LAYER, 6 
-2
-LANG:10000 0 
-LANG:10001 0 
+0
 0
 LAYER, 7 
-2
-LANG:10000 0 
-LANG:10001 0 
+0
 0
 3 0 "iconRef" 4
 "minimumSize" "48 48"
@@ -141,7 +344,7 @@ LANG:10001 0
 "" ""
 "ix/objects_parts/menu/menu_text.pnl" 145 60 T 4 1 0 1 -45 -15
 0
-4 4 "LAYOUT_GROUP6" -1
+4 4 "LAYOUT_GROUP6" 5
 1 2 
 9 
 0 3 
@@ -149,4 +352,13 @@ LANG:10001 0
 "G 3" "1 0 1 1"
 "" ""
 1 1 1 0 0 0 0 1 2
+4 5 "LAYOUT_GROUP8" -1
+2 1 
+19 20 
+4 
+"S 19" "2 0 1 1"
+"S 20" "0 0 1 1"
+"G 4" "1 0 1 1"
+"" ""
+0 1 0 0
 0

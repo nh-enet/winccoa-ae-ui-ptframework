@@ -2,8 +2,8 @@
 <panel version="14">
  <properties>
   <prop name="Name">
-   <prop name="de_AT.utf8">navi</prop>
    <prop name="en_US.utf8"></prop>
+   <prop name="de_AT.utf8">navi</prop>
    <prop name="es_ES.utf8"></prop>
    <prop name="fr_FR.utf8"></prop>
    <prop name="tr_TR.utf8"></prop>
@@ -27,49 +27,69 @@
  </properties>
  <events>
   <script isEscaped="1" name="ScopeLib"><![CDATA[#uses &quot;classes/GUI/GUINaviButtonCollection&quot;
+#uses &quot;PT_SIEM_FRAMEWORK.ctl&quot;
 
-shared_ptr&lt;GUINaviButtonCollection&gt; ButtonCollection = new GUINaviButtonCollection();
+//shared_ptr&lt;GUINaviButtonCollection&gt; ButtonCollection = new GUINaviButtonCollection();
+int iMyScreenNumber = 1; //Ahmed get out the screen number
 
 public shared_ptr&lt;GUINaviButtonCollection&gt; GetGuiNaviButtonCollection()
 {
-  return ButtonCollection;
+  return daCollection[iMyScreenNumber];
 }
 
 string actualPanelName;
 
 void initButtons()
 {
+  daCollection[iMyScreenNumber] = /*(shared_ptr&lt;GUINaviButtonCollection&gt;)*/ new GUINaviButtonCollection();
+
 //   pt_moduleNumber(sModuleName, ModuleNumber);
 
   string strServerName = getSystemName();
   int error = pt_checkPanelTopologyCache();
 
-  bool bFreeNodeFound = FALSE;
+  bool bFreeNodeFound =  FALSE;
+
 
   for (int i = dynlen(g_PanelTopologyCache[strServerName + &quot;_PanelTopology.nodeName:_online.._value&quot;]); i &gt; 0; i--) //1 because ignore start/root node
   {
+    // DebugTN(&quot;i&quot;, i,&quot;g_PanelTopologyCache[strServerName + \&quot;_PanelTopology.parentNumber:_online.._value\&quot;][i]&quot;,
+    //     g_PanelTopologyCache[strServerName + &quot;_PanelTopology.parentNumber:_online.._value&quot;][i] );
     if (g_PanelTopologyCache[strServerName + &quot;_PanelTopology.nodeName:_online.._value&quot;][i] == &quot;. . .&quot;)
     {
       bFreeNodeFound = TRUE;
       continue;
     }
 
+
     if (g_PanelTopologyCache[strServerName + &quot;_PanelTopology.parentNumber:_online.._value&quot;][i] &gt; 1) //only start node and first level
-      continue;
+       continue;
+
+
 
     int iPos = i; //pt pos
-    if (g_PanelTopologyCache[strServerName + &quot;_PanelTopology.fileName:_online.._value&quot;][i] == &quot;main.pnl&quot; &amp;&amp; i!=1)
+
+    if (g_PanelTopologyCache[strServerName + &quot;_PanelTopology.fileName:_online.._value&quot;][i] == &quot;main.pnl&quot; &amp;&amp; i != 1)
     {
       iPos *= -1;
     }
-    addSymbol(myModuleName(), myPanelName(), &quot;objects/side_menu_buttons/generic.pnl&quot;, &quot;navi_btn_&quot;+i, 1, &quot;LAYOUT_GROUP1&quot;,
-              makeDynString(&quot;$nodeId:&quot;+iPos));
-  }
 
-  delay(0,50);
+    //Ahmed, come here to implement the new logic
+PT_SIEM_addNaviButton(i, g_PanelTopologyCache[strServerName + &quot;_PanelTopology.parentNumber:_online.._value&quot;][i]/*, daCollection[iMyScreenNumber]*/);
 
 
-  ButtonCollection.Clear();
+     /* addSymbol(myModuleName(), myPanelName(), &quot;objects/side_menu_buttons/generic.pnl&quot;, &quot;navi_btn_&quot; + i, 1, &quot;LAYOUT_GROUP1&quot;,
+                makeDynString(&quot;$nodeId:&quot; + iPos, &quot;$bParentNode:&quot; + true, &quot;$bSubNode:&quot; + false));
+        DebugTN(&quot;subpanelsNodes&quot;, &quot;navi_btn_&quot; + i, &quot;nodeID&quot;,iPos);
+
+
+
+  }*/
+
+ /* delay(0, 50);
+
+
+  daCollection[iMyScreenNumber].Clear();
   dyn_string shapes = getShapes(myModuleName(), myPanelName(), &quot;&quot;, true);
 
   dyn_string buttons;
@@ -85,14 +105,32 @@ void initButtons()
   for (int i = 0; i &lt; buttons.count(); i++)
   {
     shape tmp = getShape(myModuleName(), myPanelName(), buttons.at(i));
-    ButtonCollection.Append(tmp.GetGUINaviButton());
-  }
+    daCollection[iMyScreenNumber].Append(tmp.GetGUINaviButton());
+  }*/
+}
 }
 ]]></script>
   <script isEscaped="1" name="Initialize"><![CDATA[main()
 {
+
+
   initButtons();
-}]]></script>
+
+
+ // delay(2);
+ // shape myShapeToDelete = getShape(myModuleName(),myPanelName(),&quot;navi_button_4&quot;);
+
+  //removeSymbol(myModuleName(),myPanelName(),&quot;navi_btn_4&quot;);
+  //delay(2);
+
+/*DebugTN(&quot;---------------&quot;,myModuleName(),myPanelName());*/
+
+ /* delay(2);
+   addSymbol(myModuleName(), myPanelName(), &quot;objects/side_menu_buttons/generic.pnl&quot;, &quot;navi_btn_3&quot;,5, &quot;LAYOUT_GROUP1&quot;,
+              makeDynString(&quot;$nodeId:3&quot;,&quot;$bParentNode:&quot;+false,&quot;$bSubNode:&quot;+true));*/
+  // DebugTN(&quot;LAYOUT_GROUP1&quot;,LAYOUT_GROUP1.shapeType,LAYOUT_GROUP1.name,LAYOUT_GROUP1.panel);
+}
+]]></script>
  </events>
  <shapes>
   <reference Name="btn_exit" parentSerial="13" referenceId="9">
@@ -142,8 +180,8 @@ void initButtons()
     <prop name="BackColor">{255,255,255}</prop>
     <prop name="TabOrder">49</prop>
     <prop name="ToolTipText">
-     <prop name="de_AT.utf8"></prop>
      <prop name="en_US.utf8"></prop>
+     <prop name="de_AT.utf8"></prop>
      <prop name="es_ES.utf8"></prop>
      <prop name="fr_FR.utf8"></prop>
      <prop name="tr_TR.utf8"></prop>
@@ -180,6 +218,14 @@ void initButtons()
     <prop name="TabOrder">50</prop>
     <prop name="dollarParameters">
      <prop name="dollarParameter">
+      <prop name="Dollar">$bParentNode</prop>
+      <prop name="Value">0</prop>
+     </prop>
+     <prop name="dollarParameter">
+      <prop name="Dollar">$bSubNode</prop>
+      <prop name="Value">0</prop>
+     </prop>
+     <prop name="dollarParameter">
       <prop name="Dollar">$nodeId</prop>
       <prop name="Value">-1</prop>
      </prop>
@@ -198,8 +244,8 @@ void initButtons()
     <prop name="BackColor">{255,255,255}</prop>
     <prop name="TabOrder">27</prop>
     <prop name="ToolTipText">
-     <prop name="de_AT.utf8"></prop>
      <prop name="en_US.utf8"></prop>
+     <prop name="de_AT.utf8"></prop>
      <prop name="es_ES.utf8"></prop>
      <prop name="fr_FR.utf8"></prop>
      <prop name="tr_TR.utf8"></prop>
