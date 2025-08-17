@@ -30,7 +30,7 @@
 #uses &quot;PT_SIEM_FRAMEWORK.ctl&quot;
 
 //shared_ptr&lt;GUINaviButtonCollection&gt; ButtonCollection = new GUINaviButtonCollection();
-int iMyScreenNumber = 1; //Ahmed get out the screen number
+int iMyScreenNumber = GetMyScreenNumber(); //Ahmed get out the screen number
 
 public shared_ptr&lt;GUINaviButtonCollection&gt; GetGuiNaviButtonCollection()
 {

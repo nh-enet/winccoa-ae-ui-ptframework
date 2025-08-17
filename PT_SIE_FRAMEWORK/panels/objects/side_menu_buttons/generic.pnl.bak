@@ -56,7 +56,7 @@ public shared_ptr<GUINaviButton> GetGUINaviButton()
 
 
 //'Ahmed added this part
-int iMyScreenNumber = 1; //get out the screen number
+int iMyScreenNumber = GetMyScreenNumber(); //get out the screen number
 
 
 public shared_ptr<GUINaviButtonCollection> GetGuiNaviButtonCollection()
@@ -104,7 +104,7 @@ void LoadMyChildPanels()
   dyn_int myChildrensIndecies = GetMyChildren(parentID);
   DebugTN(\"myChildrensIndecies\", myChildrensIndecies);
 
-  for (int i = dynlen(myChildrensIndecies); i >= 1; i++) //1 because ignore start/root node
+  for (int i = 1; i <=dynlen(myChildrensIndecies); i--) //1 because ignore start/root node
   {
    // DebugTN(\"myChildrensIndecies[i]\", myChildrensIndecies[i]);
    //// DebugTN(\"currentParentPosition\",parentID);

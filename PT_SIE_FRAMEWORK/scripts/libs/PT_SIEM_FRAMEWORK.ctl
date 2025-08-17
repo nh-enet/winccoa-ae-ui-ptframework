@@ -41,8 +41,8 @@ synchronized PT_SIEM_addNaviButton(string id, string parentId/*,shared_ptr<GUINa
   string panelName = rootPanel(moduleName);/*"Navi";*//*"para/PanelTopology/templates/SIE/naviPanel_1024_768_SIE.pnl";*/
   bool bParentNode, bSubNode;
 //get my screen number
-  DebugN("myscreen number", myModuleName());
-  int iScreennumber = 1;//Ahmed change the screen number
+
+  int iScreennumber = GetMyScreenNumber();//Ahmed change the screen number
 
   if (dynlen(ddsNavibuttonsPerScreen) < iScreennumber)
   {
@@ -114,7 +114,7 @@ PT_SIEM_removeNaviButton(string parentId) synchronized(ddsNavibuttonsPerScreen)
 
   string moduleName = myModuleName(); /*"naviModule_1";*/ /*"_QuickTest_";*/
   string panelName = rootPanel(moduleName);
-  int iScreennumber = 1;//Ahmed change the screen number
+  int iScreennumber = GetMyScreenNumber();//Ahmed change the screen number
 dyn_int childIndecies = GetChildIndecies(parentId);
 dyn_int childIDs = GetChildIDs(parentId);
 DebugTN("++++++++++++++++++++",childIndecies,childIDs);
@@ -146,7 +146,7 @@ DebugTN("++++++++++++++++++++",childIndecies,childIDs);
 
  dyn_int GetChildIndecies(string parentId)
  {
-   int iScreennumber = 1;
+   int iScreennumber = GetMyScreenNumber();
  // DebugTN("currentParentIndex", currentParentIndex);
   string strServerName = getSystemName();
   dyn_uint ParentNumbers;
@@ -186,7 +186,7 @@ DebugTN("++++++++++++++++++++",childIndecies,childIDs);
 
  dyn_int GetChildIDs(string parentId)
  {
-   int iScreennumber = 1;
+   int iScreennumber = GetMyScreenNumber();
  // DebugTN("currentParentIndex", currentParentIndex);
   string strServerName = getSystemName();
   dyn_uint ParentNumbers;
@@ -211,6 +211,26 @@ DebugTN("++++++++++++++++++++",childIndecies,childIDs);
 }
 
 
+
+int GetMyScreenNumber()
+{
+ //DebugN("myscreen number", myModuleName());
+  string moduleName = myModuleName();
+  int iScreenNum =0;
+   // DebugTN("moduleName.at(moduleName.length()",moduleName.at(moduleName.length()),moduleName.at(moduleName.length()-1));
+   // DebugTN("at(moduleName.length()-1)",moduleName.at(moduleName.length()-1));
+  iScreenNum= (int)moduleName.at(moduleName.length()-1);
+
+//  if (iScreenNum ==0)
+//   {
+//     DebugTN("the moduleName does not contain screen number");
+//     return -1;
+//   }
+//   else*/
+  DebugTN("iScreenNum",iScreenNum);
+    return iScreenNum;
+
+}
 
 
 

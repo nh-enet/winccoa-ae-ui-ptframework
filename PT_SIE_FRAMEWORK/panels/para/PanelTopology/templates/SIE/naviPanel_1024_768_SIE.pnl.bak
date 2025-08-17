@@ -30,7 +30,7 @@
 #uses &quot;PT_SIEM_FRAMEWORK.ctl&quot;
 
 //shared_ptr&lt;GUINaviButtonCollection&gt; ButtonCollection = new GUINaviButtonCollection();
-int iMyScreenNumber = 1; //get out the screen number
+int iMyScreenNumber = 1; //Ahmed get out the screen number
 
 public shared_ptr&lt;GUINaviButtonCollection&gt; GetGuiNaviButtonCollection()
 {
@@ -48,7 +48,7 @@ void initButtons()
   string strServerName = getSystemName();
   int error = pt_checkPanelTopologyCache();
 
-  bool bFreeNodeFound = FALSE;
+  bool bFreeNodeFound =  FALSE;
 
 
   for (int i = dynlen(g_PanelTopologyCache[strServerName + &quot;_PanelTopology.nodeName:_online.._value&quot;]); i &gt; 0; i--) //1 because ignore start/root node
