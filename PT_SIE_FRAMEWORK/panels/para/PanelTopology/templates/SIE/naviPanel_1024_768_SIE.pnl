@@ -226,6 +226,10 @@ PT_SIEM_addNaviButton(i, g_PanelTopologyCache[strServerName + &quot;_PanelTopolo
       <prop name="Value">0</prop>
      </prop>
      <prop name="dollarParameter">
+      <prop name="Dollar">$iSubNodeLevel</prop>
+      <prop name="Value">0</prop>
+     </prop>
+     <prop name="dollarParameter">
       <prop name="Dollar">$nodeId</prop>
       <prop name="Value">-1</prop>
      </prop>

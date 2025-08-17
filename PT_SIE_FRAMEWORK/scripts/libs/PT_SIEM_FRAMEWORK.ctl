@@ -109,19 +109,21 @@ synchronized PT_SIEM_addNaviButton(string id, string parentId/*,shared_ptr<GUINa
 
 
 
-PT_SIEM_removeNaviButton(string parentId) synchronized(ddsNavibuttonsPerScreen)
+PT_SIEM_removeNaviButton(string parentId,dyn_int myChildrensIndecies) synchronized(ddsNavibuttonsPerScreen)
 {
 
   string moduleName = myModuleName(); /*"naviModule_1";*/ /*"_QuickTest_";*/
   string panelName = rootPanel(moduleName);
   int iScreennumber = GetMyScreenNumber();//Ahmed change the screen number
-dyn_int childIndecies = GetChildIndecies(parentId);
+
+/*dyn_int childIndecies = GetChildIndecies(parentId);
 dyn_int childIDs = GetChildIDs(parentId);
-DebugTN("++++++++++++++++++++",childIndecies,childIDs);
+DebugTN("++++++++++++++++++++",childIndecies,childIDs);*/
+
  // DebugTN("childIndecies00000000000000000",childIndecies);
   //implemennt forloop for all childs
 
- for (int i = 1;i<=dynlen(childIndecies);i++)
+ /*for (int i = 1;i<=dynlen(childIndecies);i++)
 {int vartestIndex = 3;
   int index = childIndecies[i];
 
@@ -137,10 +139,29 @@ DebugTN("++++++++++++++++++++",childIndecies,childIDs);
   removeSymbol(moduleName, panelName, "navi_btn_" + childIDs[i]);
   dynRemove(ddsNavibuttonsPerScreen[iScreennumber], index);
 
+}*/
 
+  DebugTN("my IDs for deletion are :", myChildrensIndecies);
+for (int i =dynlen(myChildrensIndecies);i>=1 ;i-- )
 
+{
+int  currentElementIndex=dynContains(ddsNavibuttonsPerScreen[iScreennumber], myChildrensIndecies[i]);
+  if(currentElementIndex !=0)
+  {
+        DebugTN("my IThe required info :", myChildrensIndecies[i],"dynContains(ddsNavibuttonsPerScreen[iScreennumber], myChildrensIndecies[i])",dynContains(ddsNavibuttonsPerScreen[iScreennumber], myChildrensIndecies[i]));
+    daCollection[iScreennumber].RemoveByIndex(currentElementIndex);
+    removeSymbol(moduleName, panelName, "navi_btn_" +myChildrensIndecies[i]);
+    dynRemove(ddsNavibuttonsPerScreen[iScreennumber], currentElementIndex);
 
+  }
+  else
+  {
+    DebugTN("I am not able to find id number ",myChildrensIndecies[i], " in the layout");
+  }
+        DebugTN("ddsNavibuttonsPerScreen[iScreennumber]",ddsNavibuttonsPerScreen[iScreennumber]);
 }
+
+
 }
 
 
@@ -231,6 +252,38 @@ int GetMyScreenNumber()
     return iScreenNum;
 
 }
+
+bool doIhaveAChild(int myID)
+{
+  bool Answer = false;
+
+  string strServerName = getSystemName();
+  dyn_uint ParentNumbers;
+  dpGet(strServerName + "_PanelTopology.parentNumber", ParentNumbers);
+
+  for (int i = 1; i <= dynlen(ParentNumbers); i++)
+  {
+    DebugTN("i=", i);
+
+    if (ParentNumbers[i] == myID)
+    {
+
+      Answer = true;
+
+    }
+
+
+  }
+
+//"System1:_PanelTopology.parentNumber"
+
+  return Answer;
+
+}
+
+
+
+
 
 
 
