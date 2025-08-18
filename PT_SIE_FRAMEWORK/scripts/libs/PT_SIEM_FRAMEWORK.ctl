@@ -141,24 +141,24 @@ DebugTN("++++++++++++++++++++",childIndecies,childIDs);*/
 
 }*/
 
-  DebugTN("my IDs for deletion are :", myChildrensIndecies);
+ // DebugTN("my IDs for deletion are :", myChildrensIndecies);
 for (int i =dynlen(myChildrensIndecies);i>=1 ;i-- )
 
 {
 int  currentElementIndex=dynContains(ddsNavibuttonsPerScreen[iScreennumber], myChildrensIndecies[i]);
   if(currentElementIndex !=0)
   {
-        DebugTN("my IThe required info :", myChildrensIndecies[i],"dynContains(ddsNavibuttonsPerScreen[iScreennumber], myChildrensIndecies[i])",dynContains(ddsNavibuttonsPerScreen[iScreennumber], myChildrensIndecies[i]));
+       // DebugTN("my IThe required info :", myChildrensIndecies[i],"dynContains(ddsNavibuttonsPerScreen[iScreennumber], myChildrensIndecies[i])",dynContains(ddsNavibuttonsPerScreen[iScreennumber], myChildrensIndecies[i]));
     daCollection[iScreennumber].RemoveByIndex(currentElementIndex);
     removeSymbol(moduleName, panelName, "navi_btn_" +myChildrensIndecies[i]);
     dynRemove(ddsNavibuttonsPerScreen[iScreennumber], currentElementIndex);
 
   }
-  else
-  {
-    DebugTN("I am not able to find id number ",myChildrensIndecies[i], " in the layout");
-  }
-        DebugTN("ddsNavibuttonsPerScreen[iScreennumber]",ddsNavibuttonsPerScreen[iScreennumber]);
+//   else
+ //   {
+ //     DebugTN("I am not able to find id number ",myChildrensIndecies[i], " in the layout");
+ //   }
+    //    DebugTN("ddsNavibuttonsPerScreen[iScreennumber]",ddsNavibuttonsPerScreen[iScreennumber]);
 }
 
 
@@ -248,7 +248,7 @@ int GetMyScreenNumber()
 //     return -1;
 //   }
 //   else*/
-  DebugTN("iScreenNum",iScreenNum);
+ // DebugTN("iScreenNum",iScreenNum);
     return iScreenNum;
 
 }
@@ -263,7 +263,7 @@ bool doIhaveAChild(int myID)
 
   for (int i = 1; i <= dynlen(ParentNumbers); i++)
   {
-    DebugTN("i=", i);
+   // DebugTN("i=", i);
 
     if (ParentNumbers[i] == myID)
     {

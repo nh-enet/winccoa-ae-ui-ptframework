@@ -66,7 +66,7 @@ public shared_ptr<GUINaviButtonCollection> GetGuiNaviButtonCollection()
 
 dyn_int GetMyChildrenAndGrands(int currentParentIndex)
 {
-    DebugTN(\"currentParentIndex\", currentParentIndex);
+  //  DebugTN(\"currentParentIndex\", currentParentIndex);
     string strServerName = getSystemName();
     dyn_uint ParentNumbers;
     dyn_int childIndices;
@@ -89,14 +89,14 @@ dyn_int GetMyChildrenAndGrands(int currentParentIndex)
         }
     }
 
-    DebugTN(\"childIndices\", childIndices);
+  //  DebugTN(\"childIndices\", childIndices);
     return childIndices;
 }
 
 
 dyn_int GetMyChildren(int currentParentIndex)
 {
-  DebugTN(\"currentParentIndex\", currentParentIndex);
+ // DebugTN(\"currentParentIndex\", currentParentIndex);
   string strServerName = getSystemName();
   dyn_uint ParentNumbers;
   dyn_int childIndecies;
@@ -104,7 +104,7 @@ dyn_int GetMyChildren(int currentParentIndex)
 
   for (int i = 1; i <= dynlen(ParentNumbers); i++)
   {
-    DebugTN(\"i=\", i);
+  //  DebugTN(\"i=\", i);
 
     if (ParentNumbers[i]==currentParentIndex)
     {
@@ -117,7 +117,7 @@ dyn_int GetMyChildren(int currentParentIndex)
   }
 
 //\"System1:_PanelTopology.parentNumber\"
-  DebugTN(\"childIndecies\",childIndecies);
+ // DebugTN(\"childIndecies\",childIndecies);
   return childIndecies;
 
 }
@@ -163,7 +163,7 @@ void RemoveMyChildPanels()
   string panelName = rootPanel(moduleName);//\"Navi\";/*\"para/PanelTopology/templates/SIE/naviPanel_1024_768_SIE.pnl\";*/
   int parentID = (int)$nodeId;
   dyn_int myChildrensIndecies = GetMyChildrenAndGrands(parentID);
-DebugTN(\"myChildrensIndecies\",myChildrensIndecies);
+//DebugTN(\"myChildrensIndecies\",myChildrensIndecies);
 PT_SIEM_removeNaviButton(parentID,myChildrensIndecies);/*, daCollection[iMyScreenNumber];*/
 
 
@@ -250,7 +250,7 @@ main()
   }
     else if (GetParentID(myID) ==0)
     {
-  DebugTN(\"hola, i am the main panel\");
+  //DebugTN(\"hola, i am the main panel\");
    this.text = \"\";
       this.visible = false;
   }
@@ -291,7 +291,7 @@ if(myID ==1)
    val=0;
 else if(myID ==-1)
 {
-  DebugTN(\"my ID is -1\");
+ // DebugTN(\"my ID is -1\");
      val=-1;
    }
 else
@@ -310,7 +310,7 @@ main(mapping event)
 
   if (clicked)
   {
-    DebugTN(\"Hi,Ienterned\");
+   // DebugTN(\"Hi,Ienterned\");
     LoadMyChildPanels();
 this.text = \"- \";
     clicked = false;
@@ -376,10 +376,10 @@ main()
 
       int myID = (int)$nodeId;
       int parentID = getMyParent(myID);
-      DebugTN(\"parentID\",parentID);
+     // DebugTN(\"parentID\",parentID);
     for (int i = 1 ; i <= parentID; i++)
     {
-      finalText =finalText+ \"  \";
+      finalText =finalText+ \"   \";
 
     }
 
@@ -400,7 +400,7 @@ int getMyParent(int myID)
   dpGet(strServerName + \"_PanelTopology.parentNumber\", ParentNumbers);
 
 parentID=ParentNumbers[myID];
-DebugTN(\"hhhhhhhhhhhh\",ParentNumbers,parentID);
+//DebugTN(\"hhhhhhhhhhhh\",ParentNumbers,parentID);
 return parentID ;
 
 }

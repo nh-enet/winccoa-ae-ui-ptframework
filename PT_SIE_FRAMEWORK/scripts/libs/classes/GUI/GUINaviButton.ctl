@@ -79,6 +79,7 @@ class GUINaviButton
    */
   public void SetText(const langString &text)
   {
+    if(shapeExists("textRef"))
     _textRef.SetText(text);
   }
 
@@ -88,6 +89,7 @@ class GUINaviButton
    */
   public void SetVisible(const bool &visible)
   {
+        if(shapeExists("textRef"))
     _textRef.SetVisible(visible);
   }
 
