@@ -16,7 +16,7 @@ class GUINaviButton
   private shape _iconRef; //!< The reference to the shape representing the button's icon.
   private shape _textRef; //!< The reference to the shape representing the button's text.
   private shape _frameSelector; //!< The reference to the shape representing the button's frame selector.
-
+  //private shape _childNavi; //!< The reference to the shape representing the button's frame selector.
   private shared_ptr<GUINaviButton> _button; //!< A shared pointer to another GUINaviButton object, allowing for interaction between buttons.
 
   private string _currentBackColor; //!< The current background color of the button.
@@ -34,11 +34,14 @@ class GUINaviButton
    * @param iconRef The reference to the shape representing the button's icon.
    * @param frameSelector The reference to the shape representing the button's frame selector.
    */
+
   public GUINaviButton(const shape &textRef, const shape &iconRef, const shape &frameSelector)
   {
     _textRef = textRef;
     _iconRef = iconRef;
     _frameSelector = frameSelector;
+
+
   }
 
 #event ClickedEvent(int mode, anytype value, shared_ptr<GUINaviButton> button) //!< Event triggered when the button is clicked.
@@ -62,6 +65,8 @@ class GUINaviButton
     _currentBackColor = (active) ? colorGhostSelected : colorGhost;
     _frameSelector.backCol(_currentBackColor);
     _iconRef.SetSelBackCol((active) ? colorPrimary : colorGhost);
+
+
   }
 
   /**
@@ -81,6 +86,7 @@ class GUINaviButton
   {
     if(shapeExists("textRef"))
     _textRef.SetText(text);
+
   }
 
   /**
@@ -91,6 +97,8 @@ class GUINaviButton
   {
         if(shapeExists("textRef"))
     _textRef.SetVisible(visible);
+
+
   }
 
   /**
@@ -119,4 +127,12 @@ class GUINaviButton
   {
     return _button;
   }
+
+
+
 };
+
+
+
+
+

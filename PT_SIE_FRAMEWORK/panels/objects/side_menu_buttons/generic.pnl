@@ -244,9 +244,11 @@ main()
     int myID = (int)$nodeId;
   if ((bool)$bParentNode == TRUE)
   {
+       if (doIhaveAChild(myID))
+    {
     this.text = \"+ \";
     this.visible = true;
-
+  }
   }
     else if (GetParentID(myID) ==0)
     {
@@ -375,7 +377,7 @@ main()
 //DebugTN(\"debugging the level from the button\",nodeLevel);
 
       int myID = (int)$nodeId;
-      int parentID = getMyParent(myID);
+      int parentID = getLevel(myID);
      // DebugTN(\"parentID\",parentID);
     for (int i = 1 ; i <= parentID; i++)
     {
@@ -392,18 +394,35 @@ main()
 }
 
 
-int getMyParent(int myID)
+int getLevel(int myID)
 {
-  string strServerName = getSystemName();
-  int parentID;
-  dyn_uint ParentNumbers;
-  dpGet(strServerName + \"_PanelTopology.parentNumber\", ParentNumbers);
+    string strServerName = getSystemName();
+    dyn_uint parentNumbers;
+    dpGet(strServerName + \"_PanelTopology.parentNumber\", parentNumbers);
 
-parentID=ParentNumbers[myID];
-//DebugTN(\"hhhhhhhhhhhh\",ParentNumbers,parentID);
-return parentID ;
+    int level = 0;
+    int currentID = myID;
 
+    while (1)
+    {
+        int parentID = parentNumbers[currentID];
+
+        // Top-level panel has parentNumber 1 (or 0 depending on your topology)
+        if (parentID <= 1)
+        {
+            level += 1;  // count this level
+            break;
+        }
+
+        // Move up to parent
+        currentID = parentID;
+        level += 1;
+    }
+
+    //DebugTN(\"Panel level for ID \" + myID, level);
+    return level;
 }
+
 " 0
  E 0 1 3 2 1 E U  0 E 39 17 101 43
 0 2 2 "0s" 0 0 0 201 0 0  70 30 1
