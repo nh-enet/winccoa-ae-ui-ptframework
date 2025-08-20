@@ -47,7 +47,7 @@ class GUINaviLanguageButton : GUINaviButton
 
     if (answer > 0)
     {
-      changeLang(dsLangs.at(answer + 1));
+      changeLang(dsLangs[answer]);
     }
   }
 };
