@@ -1,7 +1,7 @@
 V 14
 6
-LANG:10001 0 
 LANG:10000 0 
+LANG:10001 0 
 LANG:10010 0 
 LANG:10009 0 
 LANG:10007 0 
@@ -169,9 +169,10 @@ PT_SIEM_removeNaviButton(parentID,myChildrensIndecies);/*, daCollection[iMyScree
 
 }
 " 0
- 4
+ 5
 "CBRef" "1"
 "EClose" E
+"LangSwitchMode" "1"
 "dpi" "96"
 "pdpi" "108.888"
 1 1 0 0 0 0 1 0
@@ -197,8 +198,8 @@ E E "main(bool enter)
 
 0
 6
-LANG:10001 0 
 LANG:10000 0 
+LANG:10001 0 
 LANG:10010 0 
 LANG:10009 0 
 LANG:10007 0 

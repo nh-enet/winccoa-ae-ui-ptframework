@@ -2,8 +2,8 @@
 <panel version="14">
  <properties>
   <prop name="Name">
-   <prop name="en_US.utf8"></prop>
    <prop name="de_AT.utf8">navi</prop>
+   <prop name="en_US.utf8"></prop>
    <prop name="es_ES.utf8"></prop>
    <prop name="fr_FR.utf8"></prop>
    <prop name="tr_TR.utf8"></prop>
@@ -15,6 +15,7 @@
   <prop name="InitAndTermRef">True</prop>
   <prop name="SendClick">False</prop>
   <prop name="RefFileName"></prop>
+  <prop name="LangSwitchMode">1</prop>
   <prop name="DPI">96</prop>
   <prop name="PDPI">108.888</prop>
   <prop name="layoutType">VBox</prop>
@@ -110,14 +111,13 @@ PT_SIEM_addNaviButton(i, g_PanelTopologyCache[strServerName + &quot;_PanelTopolo
 }
 }
 ]]></script>
-  <script isEscaped="1" name="Initialize"><![CDATA[
-main()
+  <script isEscaped="1" name="Initialize"><![CDATA[main()
 {
 firstTime=true;
 bool Pressed=false;
   initButtons();
   delay(2);
-while(true)
+/*while(true)
   {
     int width,hight;
 getValue(this,&quot;size&quot;,width,hight);
@@ -137,8 +137,8 @@ Pressed = false;
   firstTime=false;
 Pressed = true;
   }
-  delay(0.3);
-  }
+
+  } delay(0.3);*/
 
 }
 ]]></script>
@@ -191,8 +191,8 @@ Pressed = true;
     <prop name="BackColor">{255,255,255}</prop>
     <prop name="TabOrder">49</prop>
     <prop name="ToolTipText">
-     <prop name="en_US.utf8"></prop>
      <prop name="de_AT.utf8"></prop>
+     <prop name="en_US.utf8"></prop>
      <prop name="es_ES.utf8"></prop>
      <prop name="fr_FR.utf8"></prop>
      <prop name="tr_TR.utf8"></prop>
@@ -255,8 +255,8 @@ Pressed = true;
     <prop name="BackColor">{255,255,255}</prop>
     <prop name="TabOrder">27</prop>
     <prop name="ToolTipText">
-     <prop name="en_US.utf8"></prop>
      <prop name="de_AT.utf8"></prop>
+     <prop name="en_US.utf8"></prop>
      <prop name="es_ES.utf8"></prop>
      <prop name="fr_FR.utf8"></prop>
      <prop name="tr_TR.utf8"></prop>
