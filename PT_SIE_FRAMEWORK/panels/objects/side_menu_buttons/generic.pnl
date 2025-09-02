@@ -81,7 +81,7 @@ dyn_int GetMyChildrenAndGrands(int currentParentIndex)
             childIndices.append(i);
 
         //recursive loop
-            dyn_int grandChildren = GetMyChildren(i);
+            dyn_int grandChildren = GetMyChildrenAndGrands(i);
             for (int j = 1; j <= dynlen(grandChildren); j++)
             {
                 childIndices.append(grandChildren[j]);
@@ -89,7 +89,7 @@ dyn_int GetMyChildrenAndGrands(int currentParentIndex)
         }
     }
 
-  //  DebugTN(\"childIndices\", childIndices);
+ // DebugTN(\"childIndices\", childIndices);
     return childIndices;
 }
 
